@@ -1,10 +1,9 @@
-import React, { useState } from 'react';
 import { Box, Text, useInput } from 'ink';
 import SelectInput from 'ink-select-input';
 import TextInput from 'ink-text-input';
-
-import { getFileNames } from '../lib/helpers';
+import React, { useState } from 'react';
 import { useQueue } from '../context/queue';
+import { getMetadata } from '../lib/helpers';
 
 interface Item {
   label: string;
@@ -16,27 +15,27 @@ interface SongListProps {
 }
 
 const SongList = (props: SongListProps) => {
-  const songs = getFileNames();
+  const songs = getMetadata();
   const { queue, addToQueue } = useQueue();
 
   const [performerName, setPerformerName] = useState<string>('');
-  const [selectedSong, setSelectedSong] = useState<string>('');
+  const [selectedSong, setSelectedSong] = useState<Item | null>(null);
 
   const selectItems: Item[] = songs.map((song) => {
     return {
-      label: song.split('assets/')[1].split('.')[0],
-      value: song,
+      label: `${song.lyrics.meta.name} - ${song.lyrics.meta.artists[0]}`,
+      value: song.filePath,
     };
   });
 
   const handleSelect = (item: Item) => {
-    setSelectedSong(item.value);
+    setSelectedSong(item);
   };
 
   useInput((input, key) => {
     if (key.return && selectedSong && performerName) {
       addToQueue({ performerName });
-      setSelectedSong('');
+      setSelectedSong(null);
       setPerformerName('');
       props.onFinish();
     }
