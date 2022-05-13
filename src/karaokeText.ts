@@ -1,26 +1,28 @@
 import fallbackSong from './kukkuu.json';
 
-interface Song {
+export interface Song {
   lines: Line[];
   start: number;
   end: number;
+  title: string;
+  artist: string;
 }
 
-interface Line {
+export interface Line {
   asString: string;
   words: Word[];
   start: number;
   end: number;
 }
 
-interface Word {
+export interface Word {
   asString: string;
   syllables: Syllable[];
   start: number;
   end: number;
 }
 
-interface Syllable {
+export interface Syllable {
   text: string;
   start: number;
   end: number;
@@ -37,6 +39,8 @@ export function prepareSong(songJson: any): Song {
     lines: createLines(lyrics.singers[0].lines),
     start: lyrics.meta.start,
     end: lyrics.meta.end,
+    title: lyrics.meta.name,
+    artist: lyrics.meta.artists[0],
   };
 
   return song;
