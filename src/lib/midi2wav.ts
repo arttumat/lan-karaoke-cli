@@ -22,3 +22,7 @@ export const playFile = (filePath: string): void => {
       console.error(error);
     });
 };
+
+export const stop = (): void => {
+  player.stop();
+};
