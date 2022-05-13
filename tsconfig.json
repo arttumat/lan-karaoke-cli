@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "watch": false,
     "target": "es2017",
     "module": "commonjs",
     "declaration": true,
@@ -8,6 +9,7 @@
     "esModuleInterop": true,
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
+    "jsx": "react",
 
     "strict": true /* Enable all strict type-checking options. */,
 
@@ -20,6 +22,6 @@
 
     "lib": ["esnext"]
   },
-  "include": ["src/**/*.ts", "tests/**/*.ts", "src/lib/midi2wav.ts", "index.d.ts"],
+  "include": ["src/**/*.ts", "tests/**/*.ts", "src/**/*.tsx"],
   "exclude": ["node_modules", "dist", "test/**/*.ts"]
 }
