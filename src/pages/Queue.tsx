@@ -28,7 +28,7 @@ const Queue = () => {
         )}
       </Text>
       <Box flexDirection="column">
-        {queue.map((item, index) => (
+        {queue.slice(0, 5).map((item, index) => (
           <Box
             key={item.performerName}
             flexDirection="row"
