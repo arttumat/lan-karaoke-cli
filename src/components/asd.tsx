@@ -22,12 +22,12 @@ const song = prepareSong(null);
 const Counter = () => {
   const [counter, setCounter] = useState(0);
   const [index, setIndex] = useState<number>(0);
-  const lineStarts = song.lines.map((line) => line.start);
+  const lineStarts = song.lines.map((line) => line.start / 100);
 
   useEffect(() => {
     const timer = setInterval(() => {
       setCounter((previousCounter) => previousCounter + 1);
-    }, 1);
+    }, 100);
 
     return () => {
       clearInterval(timer);
@@ -49,8 +49,4 @@ const Counter = () => {
   );
 };
 
-const App = () => (
-  <FullScreen>
-    <Counter />
-  </FullScreen>
-);
+export default Counter;

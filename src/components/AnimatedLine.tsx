@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { Box } from 'ink';
-import BigText from 'ink-big-text';
+import { Box, Text } from 'ink';
+// import BigText from 'ink-big-text';
 
 import { Line } from '../karaokeText';
 
@@ -10,22 +10,20 @@ type Props = {
 };
 
 const AnimatedLine = ({ line, currentTime }: Props) => {
-  const startTimes = line.words.map((w) => w.start);
-  const [doned, setDoned] = useState<number>(0);
-
+  const [index, setIndex] = useState<number>(0);
+  const startTimes = line.words.map((w) => Math.floor(w.start / 100));
   useEffect(() => {
-    const asd = startTimes.filter((time) => time < currentTime);
-    setDoned(asd.length);
+    const i = startTimes.filter((time) => time <= currentTime).length;
+    setIndex(i);
   }, [currentTime]);
 
   return (
     <Box flexDirection="row">
       {line.words.map(({ asString }, i) => {
-        const bgColor = doned - 1 <= i ? 'red' : 'black';
-        return <BigText backgroundColor={bgColor} text={asString} />;
+        const color = i <= index ? 'magentaBright' : 'blackBright';
+        return <Text color={color}>{`${asString} `}</Text>;
       })}
     </Box>
   );
 };
-
 export default AnimatedLine;

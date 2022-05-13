@@ -12,6 +12,7 @@ import Logo from './components/Logo';
 import Queue from './pages/Queue';
 import AddSongs from './pages/AddSongs';
 import PageLayout from './components/PageLayout';
+import Asd from './components/asd';
 
 const argv = yargs.options({
   a: { type: 'boolean', default: false },
@@ -31,7 +32,8 @@ const App = () => {
 
   return (
     <FullScreen>
-      <Box flexDirection="column">
+      <Asd />
+      {/* <Box flexDirection="column">
         <Logo />
         <Tabs defaultValue="queue" onChange={handleTabChange}>
           <Tab name="queue">Queue</Tab>
@@ -42,7 +44,7 @@ const App = () => {
           {activeTabName === 'queue' && <Queue />}
           {activeTabName === 'add-songs' && <AddSongs />}
         </PageLayout>
-      </Box>
+      </Box> */}
     </FullScreen>
   );
 };
