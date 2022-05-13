@@ -1,10 +1,11 @@
+import { Box } from 'ink';
 import React from 'react';
-import { Box, Text } from 'ink';
+import SongList from '../components/SongList';
 
 const AddSongs = () => {
   return (
     <Box>
-      <Text>Add songs</Text>
+      <SongList />
     </Box>
   );
 };
