@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import { Box, Text } from 'ink';
-// import BigText from 'ink-big-text';
-
+import { Box } from 'ink';
+import BigText from 'ink-big-text';
+import Gradient from 'ink-gradient';
 import { Line } from '../karaokeText';
 
 type Props = {
@@ -11,7 +11,7 @@ type Props = {
 
 const AnimatedLine = ({ line, currentTime }: Props) => {
   const [index, setIndex] = useState<number>(0);
-  const startTimes = line.words.map((w) => Math.floor(w.start / 100));
+  const startTimes = line.words.map((w) => Math.floor(w.start / 10));
   useEffect(() => {
     const i = startTimes.filter((time) => time < currentTime).length;
     setIndex(i);
@@ -20,8 +20,14 @@ const AnimatedLine = ({ line, currentTime }: Props) => {
   return (
     <Box flexDirection="row">
       {line.words.map(({ asString }, i) => {
-        const color = i < index ? 'red' : 'green';
-        return <Text color={color}>{`${asString} `}</Text>;
+        const done = i < index;
+        return done ? (
+          <Gradient name="rainbow">
+            <BigText text={`${asString} `} />
+          </Gradient>
+        ) : (
+          <BigText text={`${asString} `} />
+        );
       })}
     </Box>
   );

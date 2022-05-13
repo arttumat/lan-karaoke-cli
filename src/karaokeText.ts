@@ -4,6 +4,8 @@ export interface Song {
   lines: Line[];
   start: number;
   end: number;
+  title: string;
+  artist: string;
 }
 
 export interface Line {
@@ -37,6 +39,8 @@ export function prepareSong(songJson: any): Song {
     lines: createLines(lyrics.singers[0].lines),
     start: lyrics.meta.start,
     end: lyrics.meta.end,
+    title: lyrics.meta.name,
+    artist: lyrics.meta.artists[0],
   };
 
   return song;

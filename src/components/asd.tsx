@@ -22,12 +22,12 @@ const song = prepareSong(null);
 const Counter = () => {
   const [counter, setCounter] = useState(0);
   const [index, setIndex] = useState<number>(0);
-  const lineEnds = song.lines.map((line) => line.end / 100);
+  const lineEnds = song.lines.map((line) => line.end / 10);
 
   useEffect(() => {
     const timer = setInterval(() => {
       setCounter((previousCounter) => previousCounter + 1);
-    }, 100);
+    }, 10);
 
     return () => {
       clearInterval(timer);
@@ -41,9 +41,8 @@ const Counter = () => {
 
   return (
     <Box flexDirection="column">
-      {/* <Text>{chalk.yellowBright(figlet.textSync(counter.toString()))}</Text> */}
-      <Text color="green">{chalk.green(figlet.textSync('LAN Karaoke CLI'))}</Text>
-      <Text color="red">Arguments: {JSON.stringify(argv, null, 2)}</Text>
+      <Text color="green">{chalk.green(figlet.textSync('Kalle'))}</Text>
+      <Text color="red">{`Currently playing: ${song.title}, by ${song.artist}`}</Text>
       <AnimatedLine line={song.lines[index]} currentTime={counter} />
     </Box>
   );
