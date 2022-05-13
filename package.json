@@ -1,0 +1,54 @@
+{
+  "name": "lan-karaoke-cli",
+  "version": "0.0.1",
+  "description": "LAN Karaoke CLI",
+  "main": "dist/index.js",
+  "types": "dist/indexx.d.ts",
+  "source": "src/index.ts",
+  "bin": "dist/cli.js",
+  "preferGlobal": true,
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node ./dist/index.js",
+    "prettier": "prettier -c --write '**/*'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arttumat/lan-karaoke-cli.git"
+  },
+  "keywords": [
+    "karaoke",
+    "cli"
+  ],
+  "author": "arttumat",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arttumat/lan-karaoke-cli/issues"
+  },
+  "homepage": "https://github.com/arttumat/lan-karaoke-cli#readme",
+  "devDependencies": {
+    "@types/figlet": "^1.5.4",
+    "@types/node": "^17.0.33",
+    "@types/yargs": "^17.0.10",
+    "@typescript-eslint/eslint-plugin": "^5.23.0",
+    "@typescript-eslint/parser": "^5.23.0",
+    "eslint": "^8.15.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jest": "^26.1.5",
+    "eslint-plugin-markdown": "^2.2.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.6.2",
+    "typescript": "^4.6.4"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "figlet": "^1.5.2",
+    "yargs": "^17.5.0"
+  }
+}
