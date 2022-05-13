@@ -22,7 +22,7 @@ const song = prepareSong(null);
 const Counter = () => {
   const [counter, setCounter] = useState(0);
   const [index, setIndex] = useState<number>(0);
-  const lineStarts = song.lines.map((line) => line.start / 100);
+  const lineEnds = song.lines.map((line) => line.end / 100);
 
   useEffect(() => {
     const timer = setInterval(() => {
@@ -35,7 +35,7 @@ const Counter = () => {
   }, []);
 
   useEffect(() => {
-    const i = lineStarts.filter((time) => time <= counter).length;
+    const i = lineEnds.filter((time) => time <= counter).length;
     setIndex(i);
   }, [counter]);
 

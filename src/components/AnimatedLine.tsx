@@ -13,14 +13,14 @@ const AnimatedLine = ({ line, currentTime }: Props) => {
   const [index, setIndex] = useState<number>(0);
   const startTimes = line.words.map((w) => Math.floor(w.start / 100));
   useEffect(() => {
-    const i = startTimes.filter((time) => time <= currentTime).length;
+    const i = startTimes.filter((time) => time < currentTime).length;
     setIndex(i);
   }, [currentTime]);
 
   return (
     <Box flexDirection="row">
       {line.words.map(({ asString }, i) => {
-        const color = i - 1 <= index ? 'magentaBright' : 'blackBright';
+        const color = i < index ? 'red' : 'green';
         return <Text color={color}>{`${asString} `}</Text>;
       })}
     </Box>
