@@ -1,7 +1,8 @@
 import * as fs from 'fs';
 import * as synth from 'synth-js';
+const player = require('node-wav-player');
 
-const midi2wav = (midiFilePath: string): string => {
+export const midi2wav = (midiFilePath: string): string => {
   const midi = fs.readFileSync(midiFilePath);
   const wav = synth.midiToWav(midi).toBuffer();
   const returnFilePath = midiFilePath.replace('.mid', '.wav');
@@ -9,4 +10,15 @@ const midi2wav = (midiFilePath: string): string => {
   return returnFilePath;
 };
 
-export default midi2wav;
+export const playFile = (filePath: string): void => {
+  player
+    .play({
+      path: filePath,
+    })
+    .then(() => {
+      console.log('The wav file started to be played successfully.');
+    })
+    .catch((error: any) => {
+      console.error(error);
+    });
+};

@@ -51,6 +51,7 @@
   "dependencies": {
     "chalk": "^4.1.2",
     "figlet": "^1.5.2",
+    "node-wav-player": "^0.2.0",
     "synth-js": "^0.1.2",
     "yargs": "^17.5.0"
   }
