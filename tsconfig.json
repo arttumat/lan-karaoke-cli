@@ -20,6 +20,6 @@
 
     "lib": ["esnext"]
   },
-  "include": ["src/**/*.ts", "tests/**/*.ts"],
+  "include": ["src/**/*.ts", "tests/**/*.ts", "src/lib/midi2wav.ts"],
   "exclude": ["node_modules", "dist", "test/**/*.ts"]
 }
