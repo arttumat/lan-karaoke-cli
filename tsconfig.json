@@ -22,6 +22,12 @@
 
     "lib": ["esnext"]
   },
-  "include": ["src/**/*.ts", "tests/**/*.ts", "src/**/*.tsx"],
+  "include": [
+    "src/**/*.ts",
+    "tests/**/*.ts",
+    "src/**/*.tsx",
+    "src/lib/**/*.ts",
+    "src/lib/**/*.tsx"
+  ],
   "exclude": ["node_modules", "dist", "test/**/*.ts"]
 }

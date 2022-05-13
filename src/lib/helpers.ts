@@ -1,6 +1,11 @@
 import * as fs from 'fs';
+import * as glob from 'glob';
+import player from 'node-wav-player';
+import path from 'path';
 import * as synth from 'synth-js';
-const player = require('node-wav-player');
+
+// directory path
+const songsDir = path.join(__dirname, '../../assets/');
 
 export const midi2wav = (midiFilePath: string): string => {
   const midi = fs.readFileSync(midiFilePath);
@@ -13,7 +18,7 @@ export const midi2wav = (midiFilePath: string): string => {
 export const playFile = (filePath: string): void => {
   player
     .play({
-      path: filePath,
+      path: filePath.replace('.mid', '.wav'),
     })
     .then(() => {
       console.log('The wav file started to be played successfully.');
@@ -25,4 +30,9 @@ export const playFile = (filePath: string): void => {
 
 export const stop = (): void => {
   player.stop();
+};
+
+export const getFileNames = (): string[] => {
+  const res = glob.sync(`${songsDir}/*.mid`);
+  return res;
 };
