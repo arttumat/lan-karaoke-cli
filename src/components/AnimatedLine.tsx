@@ -20,7 +20,7 @@ const AnimatedLine = ({ line, currentTime }: Props) => {
   return (
     <Box flexDirection="row">
       {line.words.map(({ asString }, i) => {
-        const color = i <= index ? 'magentaBright' : 'blackBright';
+        const color = i - 1 <= index ? 'magentaBright' : 'blackBright';
         return <Text color={color}>{`${asString} `}</Text>;
       })}
     </Box>
