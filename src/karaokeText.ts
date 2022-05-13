@@ -1,5 +1,4 @@
-import { start } from 'repl';
-import songJson from './kukkuu.json';
+import fallbackSong from './kukkuu.json';
 
 interface Song {
   lines: Line[];
@@ -27,14 +26,22 @@ interface Syllable {
   end: number;
 }
 
-export function prepareSong(): void {
-  const { lyrics } = songJson;
+/**
+ * Prepares a song object
+ * @param songJson in format from singa
+ * @returns
+ */
+export function prepareSong(songJson: any): Song {
+  const { lyrics } = songJson ? songJson : fallbackSong;
   const song: Song = {
     lines: createLines(lyrics.singers[0].lines),
     start: lyrics.meta.start,
     end: lyrics.meta.end,
   };
 
+  return song;
+  /*
+  This shit is for testing
   const { lines } = song;
 
   lines.map((line) => {
@@ -43,7 +50,7 @@ export function prepareSong(): void {
     setTimeout(() => console.log(line.asString), start);
   });
 
-  /*
+  
   lines.map(({ words }: { words: any }) => {
     words.map(({ syllables }: { syllables: any }) => {
       const word = syllables.map(({ text }: { text: any }) => text).join('');
