@@ -1,10 +1,17 @@
 #!/usr/bin/env node
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, ReactElement } from 'react';
 import { render, Box, Text } from 'ink';
 import chalk from 'chalk';
 import figlet from 'figlet';
 import yargs from 'yargs';
+import { Tab, Tabs } from 'ink-tab';
+
 import FullScreen from './components/FullScreen';
+import Logo from './components/Logo';
+
+import Queue from './pages/Queue';
+import AddSongs from './pages/AddSongs';
+import PageLayout from './components/PageLayout';
 
 const argv = yargs.options({
   a: { type: 'boolean', default: false },
@@ -15,32 +22,29 @@ const argv = yargs.options({
   f: { choices: ['1', '2', '3'] },
 }).argv;
 
-const Counter = () => {
-  const [counter, setCounter] = useState(0);
+const App = () => {
+  const [activeTabName, setActiveTabName] = useState<string>('queue');
 
-  useEffect(() => {
-    const timer = setInterval(() => {
-      setCounter((previousCounter) => previousCounter + 1);
-    }, 100);
-
-    return () => {
-      clearInterval(timer);
-    };
-  }, []);
+  const handleTabChange = (name: string, activeTab: ReactElement<typeof Tab>): void => {
+    setActiveTabName(name);
+  };
 
   return (
-    <Box flexDirection="column">
-      <Text>{chalk.yellowBright(figlet.textSync(counter.toString()))}</Text>
-      <Text color="green">{chalk.green(figlet.textSync('LAN Karaoke CLI'))}</Text>
-      <Text color="red">Arguments: {JSON.stringify(argv, null, 2)}</Text>
-    </Box>
+    <FullScreen>
+      <Box flexDirection="column">
+        <Logo />
+        <Tabs defaultValue="queue" onChange={handleTabChange}>
+          <Tab name="queue">Queue</Tab>
+          <Tab name="add-songs">Add songs</Tab>
+        </Tabs>
+
+        <PageLayout>
+          {activeTabName === 'queue' && <Queue />}
+          {activeTabName === 'add-songs' && <AddSongs />}
+        </PageLayout>
+      </Box>
+    </FullScreen>
   );
 };
-
-const App = () => (
-  <FullScreen>
-    <Counter />
-  </FullScreen>
-);
 
 render(<App />);
