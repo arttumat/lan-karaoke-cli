@@ -29,10 +29,9 @@ const Counter = () => {
   }, []);
 
   return (
-    <Box>
-      <Text color="green">
-        {counter} {chalk.green(figlet.textSync('LAN Karaoke CLI'))}
-      </Text>
+    <Box flexDirection="column">
+      <Text>{chalk.yellowBright(figlet.textSync(counter.toString()))}</Text>
+      <Text color="green">{chalk.green(figlet.textSync('LAN Karaoke CLI'))}</Text>
       <Text color="red">Arguments: {JSON.stringify(argv, null, 2)}</Text>
     </Box>
   );
