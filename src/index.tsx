@@ -6,6 +6,8 @@ import figlet from 'figlet';
 import yargs from 'yargs';
 import { Tab, Tabs } from 'ink-tab';
 
+import { QueueProvider } from './context/queue';
+
 import FullScreen from './components/FullScreen';
 import Logo from './components/Logo';
 
@@ -31,18 +33,20 @@ const App = () => {
 
   return (
     <FullScreen>
-      <Box flexDirection="column">
-        <Logo />
-        <Tabs defaultValue="queue" onChange={handleTabChange}>
-          <Tab name="queue">Queue</Tab>
-          <Tab name="add-songs">Add songs</Tab>
-        </Tabs>
+      <QueueProvider>
+        <Box flexDirection="column">
+          <Logo />
+          <Tabs defaultValue="queue" onChange={handleTabChange}>
+            <Tab name="queue">Queue</Tab>
+            <Tab name="add-songs">Add songs</Tab>
+          </Tabs>
 
-        <PageLayout>
-          {activeTabName === 'queue' && <Queue />}
-          {activeTabName === 'add-songs' && <AddSongs />}
-        </PageLayout>
-      </Box>
+          <PageLayout>
+            {activeTabName === 'queue' && <Queue />}
+            {activeTabName === 'add-songs' && <AddSongs />}
+          </PageLayout>
+        </Box>
+      </QueueProvider>
     </FullScreen>
   );
 };
