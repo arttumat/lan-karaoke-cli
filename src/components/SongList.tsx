@@ -5,7 +5,11 @@ import React, { useState } from 'react';
 import { useQueue } from '../context/queue';
 import { getMetadata } from '../lib/helpers';
 
-interface Item {
+/**
+ * @key value - file path
+ * @key label - name of song
+ */
+interface Song {
   label: string;
   value: string;
 }
@@ -19,22 +23,22 @@ const SongList = (props: SongListProps) => {
   const { queue, addToQueue } = useQueue();
 
   const [performerName, setPerformerName] = useState<string>('');
-  const [selectedSong, setSelectedSong] = useState<Item | null>(null);
+  const [selectedSong, setSelectedSong] = useState<Song | null>(null);
 
-  const selectItems: Item[] = songs.map((song) => {
+  const selectItems: Song[] = songs.map((song) => {
     return {
       label: `${song.lyrics.meta.name} - ${song.lyrics.meta.artists[0]}`,
       value: song.filePath,
     };
   });
 
-  const handleSelect = (item: Item) => {
+  const handleSelect = (item: Song) => {
     setSelectedSong(item);
   };
 
   useInput((input, key) => {
     if (key.return && selectedSong && performerName) {
-      addToQueue({ performerName });
+      addToQueue({ performerName, midiFilePath: selectedSong.value, songName: selectedSong.label });
       setSelectedSong(null);
       setPerformerName('');
       props.onFinish();

@@ -2,6 +2,8 @@ import React, { FC, createContext, useState, useContext } from 'react';
 
 interface QueueItem {
   performerName: string;
+  midiFilePath: string;
+  songName: string;
 }
 
 type QueueContextType = {

@@ -1,21 +1,12 @@
 import React from 'react';
-import { useInput, Box, Text } from 'ink';
+import { Box, Text } from 'ink';
 import figlet from 'figlet';
 
 import { useQueue } from '../context/queue';
 import chalk from 'chalk';
 
 const Queue = () => {
-  const { queue, addToQueue } = useQueue();
-
-  useInput((input) => {
-    const number = Math.floor(Math.random() * 100);
-    if (input === 'q') {
-      addToQueue({
-        performerName: `Performer ${number}`,
-      });
-    }
-  });
+  const { queue } = useQueue();
 
   return (
     <Box flexDirection="column">
@@ -37,7 +28,9 @@ const Queue = () => {
             padding={1}
           >
             <Text bold>{index + 1}. </Text>
-            <Text>{item.performerName}</Text>
+            <Text>
+              {item.performerName} - {item.songName}
+            </Text>
           </Box>
         ))}
       </Box>
