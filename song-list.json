@@ -93,5 +93,55 @@
     "name": "boten_anna",
     "song": "90",
     "variant": "90"
+  },
+  {
+    "name": "hey_stoopid",
+    "song": "11237",
+    "variant": "13202"
+  },
+  {
+    "name": "doris",
+    "song": "329",
+    "variant": "19851"
+  },
+  {
+    "name": "aamu",
+    "song": "7999",
+    "variant": "14069"
+  },
+  {
+    "name": "aikuinen",
+    "song": "8266",
+    "variant": "8879"
+  },
+  {
+    "name": "shape",
+    "song": "60118",
+    "variant": "113705"
+  },
+  {
+    "name": "bridge",
+    "song": "763",
+    "variant": "763"
+  },
+  {
+    "name": "careless",
+    "song": "46645",
+    "variant": "70494"
+  },
+  {
+    "name": "luukas_ei",
+    "song": "44158",
+    "variant": "67334"
+  },
+  {
+    "name": "maija_ei",
+    "song": "558",
+    "variant": "21703"
+  },
+  {
+    "name": "final_cd",
+    "song": "23981",
+    "variant": "29987"
   }
 ]
