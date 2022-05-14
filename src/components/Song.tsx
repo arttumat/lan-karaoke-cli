@@ -11,20 +11,20 @@ const Song = ({ song }: Props) => {
   const { lines } = song;
 
   return (
-    <Text>
+    <>
       {lines.map((line, i, lineArray) => {
         return (
           <Line
             key={line.start + 'line'}
             line={line}
             start={line.start}
-            end={lineArray[i + 2] ? lineArray[i + 2].end : line.end}
+            end={line.end + 3000}
             delay={2000}
             // fade={lineArray[i + 2] ? lineArray[i + 2].start : line.end}
           />
         );
       })}
-    </Text>
+    </>
   );
 };
 

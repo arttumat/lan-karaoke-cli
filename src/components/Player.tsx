@@ -10,12 +10,10 @@ const song = prepareSong(null);
 const Player = () => {
   return (
     <Box flexDirection="column">
-      <Text>
-        <Text color="red">{`Currently playing: ${song.title}, by ${song.artist}`}</Text>
-        <Newline />
-        <Newline />
-        <Song song={song} />
-      </Text>
+      <Text color="red">{`Currently playing: ${song.title}, by ${song.artist}`}</Text>
+      <Newline />
+      <Newline />
+      <Song song={song} />
     </Box>
   );
 };
