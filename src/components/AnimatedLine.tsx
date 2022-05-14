@@ -11,14 +11,14 @@ type Props = {
 
 const AnimatedLine = ({ line, currentTime }: Props) => {
   const [index, setIndex] = useState<number>(0);
-  const startTimes = line.words.map((w) => Math.floor(w.start / 10));
+  const startTimes = line.words.map((w) => Math.floor(w.start / 50));
   useEffect(() => {
     const i = startTimes.filter((time) => time < currentTime).length;
     setIndex(i);
   }, [currentTime]);
 
   return (
-    <Box flexDirection="row">
+    <Box flexDirection="row" alignItems="center" justifyContent="center" width="100%">
       {line.words.map(({ asString }, i) => {
         const done = i < index;
         return done ? (

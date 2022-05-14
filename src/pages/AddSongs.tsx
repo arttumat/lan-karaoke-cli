@@ -1,10 +1,15 @@
+import { Box } from 'ink';
 import React from 'react';
-import { Box, Text } from 'ink';
+import SongList from '../components/SongList';
 
-const AddSongs = () => {
+interface AddSongsProps {
+  onFinish: () => void;
+}
+
+const AddSongs = (props: AddSongsProps) => {
   return (
     <Box>
-      <Text>Add songs</Text>
+      <SongList onFinish={props.onFinish} />
     </Box>
   );
 };
