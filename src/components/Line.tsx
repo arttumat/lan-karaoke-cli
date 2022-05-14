@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Box, Text, Newline } from 'ink';
+import { Box, Newline } from 'ink';
 import { Line } from '../karaokeText';
 import Word from './Word';
 
@@ -12,7 +12,6 @@ type Props = {
 
 const Line = ({ line, start, end, delay }: Props) => {
   const [displayLine, setDisplayLine] = useState(false);
-  const [fadeOut, setFadeOut] = useState(false);
 
   useEffect(() => {
     const startTimer = setTimeout(() => {
@@ -28,6 +27,7 @@ const Line = ({ line, start, end, delay }: Props) => {
       clearTimeout(endTimer);
     };
   }, []);
+
   return displayLine ? (
     <Box flexDirection="row" alignItems="center" justifyContent="center" width="100%">
       {line.words.map((word) => {

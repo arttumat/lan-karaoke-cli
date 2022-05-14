@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { Word } from '../karaokeText';
-import { Text } from 'ink';
 import BigText from 'ink-big-text';
 import Gradient from 'ink-gradient';
 
