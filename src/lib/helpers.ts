@@ -4,6 +4,8 @@ import player from 'node-wav-player';
 import path from 'path';
 import * as synth from 'synth-js';
 
+const spawn = require('child_process').spawn;
+
 // directory path
 const songsDir = path.join(__dirname, '../../assets/');
 
@@ -15,13 +17,26 @@ export const midi2wav = (midiFilePath: string): string => {
   return returnFilePath;
 };
 
-export const playFile = (filePath: string): void => {
+export const playFile = (filePath: string, callback: () => void): void => {
+  spawn('ffmpeg', [
+    '-i',
+    filePath.replace('.json', '.mp3'),
+    '-ar',
+    '8000',
+    '-ac',
+    '1',
+    '-acodec',
+    'pcm_u8',
+    filePath.replace('.json', '.wav'),
+  ]);
+
   player
     .play({
-      path: filePath.replace('.mid', '.wav'),
+      path: filePath.replace('.json', '.wav'),
     })
     .then(() => {
-      console.log('The wav file started to be played successfully.');
+      // Do something after the sound has started playing
+      callback();
     })
     .catch((error: any) => {
       console.error(error);
@@ -36,7 +51,7 @@ export const getMetadata = (): any[] => {
   const res = glob.sync(`${songsDir}/*.json`);
   const metadataObjects = res.map((filePath: string) => {
     const metadata = JSON.parse(fs.readFileSync(filePath, 'utf8'));
-    metadata.filePath = filePath.replace('.json', '.mid');
+    metadata.filePath = filePath;
     return metadata;
   });
   return metadataObjects;

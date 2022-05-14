@@ -1,12 +1,43 @@
-import React from 'react';
-import { Box, Text } from 'ink';
+import React, { useState } from 'react';
+import { Box, Text, useInput } from 'ink';
 import figlet from 'figlet';
+import chalk from 'chalk';
+import * as fs from 'fs';
 
 import { useQueue } from '../context/queue';
-import chalk from 'chalk';
+import { playFile, midi2wav } from '../lib/helpers';
+import NowPlaying from '../components/NowPlaying';
 
 const Queue = () => {
   const { queue } = useQueue();
+
+  const [isPlaying, setIsPlaying] = useState(false);
+  const [currentLyrics, setCurrentLyrics] = useState<object | null>(null);
+
+  useInput((input, key) => {
+    if (key.delete) {
+      // Get lyrics from json
+      const lyricsJsonString = fs.readFileSync(queue[0].jsonFilePath, 'utf8');
+      const lyricsJson = JSON.parse(lyricsJsonString);
+      setCurrentLyrics(lyricsJson);
+
+      playFile(queue[0].jsonFilePath, () => {
+        setIsPlaying(true);
+      });
+    }
+  });
+
+  if (!isPlaying && currentLyrics) {
+    return (
+      <Box alignItems="center" justifyContent="center">
+        <Text>{figlet.textSync('Loading...', '4Max')}</Text>
+      </Box>
+    );
+  }
+
+  if (isPlaying) {
+    return <NowPlaying songJson={currentLyrics} />;
+  }
 
   return (
     <Box flexDirection="column">

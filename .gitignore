@@ -106,5 +106,6 @@ dist
 # Test file
 kukkuu.json
 
+# Audio assets
 assets/*.mp3
 assets/*.wav
