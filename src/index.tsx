@@ -36,10 +36,12 @@ const App = () => {
       <QueueProvider>
         <Box flexDirection="column">
           <Logo />
-          <Tabs defaultValue="queue" onChange={handleTabChange}>
-            <Tab name="queue">Queue</Tab>
-            <Tab name="add-songs">Add songs</Tab>
-          </Tabs>
+          <Box width="100%" justifyContent="center">
+            <Tabs defaultValue="queue" onChange={handleTabChange}>
+              <Tab name="queue">Queue</Tab>
+              <Tab name="add-songs">Add songs</Tab>
+            </Tabs>
+          </Box>
 
           <PageLayout>
             {activeTabName === 'queue' && <Queue />}

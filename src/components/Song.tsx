@@ -11,7 +11,7 @@ const Song = ({ song }: Props) => {
   const { lines } = song;
 
   return (
-    <>
+    <Box flexDirection="column" justifyContent="center" width="100%">
       {lines.map((line, i, lineArray) => {
         return (
           <Line
@@ -24,7 +24,7 @@ const Song = ({ song }: Props) => {
           />
         );
       })}
-    </>
+    </Box>
   );
 };
 
