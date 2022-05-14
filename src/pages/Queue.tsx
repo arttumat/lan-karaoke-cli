@@ -13,6 +13,7 @@ const Queue = () => {
 
   const [isPlaying, setIsPlaying] = useState(false);
   const [currentLyrics, setCurrentLyrics] = useState<object | null>(null);
+  const [performerName, setPerformerName] = useState('');
 
   useInput((input, key) => {
     if (key.delete) {
@@ -20,6 +21,7 @@ const Queue = () => {
       const lyricsJsonString = fs.readFileSync(queue[0].jsonFilePath, 'utf8');
       const lyricsJson = JSON.parse(lyricsJsonString);
       setCurrentLyrics(lyricsJson);
+      setPerformerName(queue[0].performerName);
 
       playFile(queue[0].jsonFilePath, () => {
         setIsPlaying(true);
@@ -36,7 +38,7 @@ const Queue = () => {
   }
 
   if (isPlaying) {
-    return <NowPlaying songJson={currentLyrics} />;
+    return <NowPlaying songJson={currentLyrics} performerName={performerName} />;
   }
 
   return (
