@@ -21,11 +21,7 @@ const Queue = () => {
       const lyricsJson = JSON.parse(lyricsJsonString);
       setCurrentLyrics(lyricsJson);
 
-      const midiFilePath = queue[0].midiFilePath;
-      // Convert midi to wav
-      const wavPath = midi2wav(midiFilePath);
-      // Play music
-      playFile(midiFilePath, () => {
+      playFile(queue[0].jsonFilePath, () => {
         setIsPlaying(true);
       });
     }
