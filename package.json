@@ -12,7 +12,7 @@
     "assets/*"
   ],
   "scripts": {
-    "build": "npm run shittify && tsc -p tsconfig.json",
+    "build": "tsc -p tsconfig.json",
     "start": "ts-node ./dist/index.js",
     "shittify": "ts-node ./tools/shittify.ts",
     "fetch": "ts-node ./tools/get-files.ts",

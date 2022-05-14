@@ -4,8 +4,8 @@ import path from 'path';
 
 const songsDir = path.join(__dirname, '../assets/');
 
-const convert = (mp3filePath: string): void => {
-  spawn('ffmpeg', [
+const convert = async (mp3filePath: string): Promise<void> => {
+  const child = spawn('ffmpeg', [
     '-i',
     mp3filePath,
     '-ar',
@@ -16,10 +16,14 @@ const convert = (mp3filePath: string): void => {
     'pcm_u8',
     mp3filePath.replace('.mp3', '.wav'),
   ]);
+
+  await new Promise((resolve, reject) => {
+    child.on('close', resolve);
+  });
 };
 
 const files = glob.sync(`${songsDir}/*.mp3`);
 
-files.forEach((filePath: string) => {
-  convert(filePath);
+files.forEach(async (filePath: string) => {
+  await convert(filePath);
 });
