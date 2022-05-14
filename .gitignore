@@ -106,5 +106,5 @@ dist
 # Test file
 kukkuu.json
 
-# Wav files
-*.wav
+# Audio files and assets that are fetched on build
+assets/
