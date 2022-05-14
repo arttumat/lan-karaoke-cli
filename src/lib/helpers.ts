@@ -32,7 +32,12 @@ export const stop = (): void => {
   player.stop();
 };
 
-export const getFileNames = (): string[] => {
-  const res = glob.sync(`${songsDir}/*.mid`);
-  return res;
+export const getMetadata = (): any[] => {
+  const res = glob.sync(`${songsDir}/*.json`);
+  const metadataObjects = res.map((filePath: string) => {
+    const metadata = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+    metadata.filePath = filePath.replace('.json', '.mid');
+    return metadata;
+  });
+  return metadataObjects;
 };

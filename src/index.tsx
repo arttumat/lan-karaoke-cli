@@ -43,7 +43,9 @@ const App = () => {
 
           <PageLayout>
             {activeTabName === 'queue' && <Queue />}
-            {activeTabName === 'add-songs' && <AddSongs />}
+            {activeTabName === 'add-songs' && (
+              <AddSongs onFinish={() => setActiveTabName('queue')} />
+            )}
           </PageLayout>
         </Box>
       </QueueProvider>

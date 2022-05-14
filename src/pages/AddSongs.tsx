@@ -2,10 +2,14 @@ import { Box } from 'ink';
 import React from 'react';
 import SongList from '../components/SongList';
 
-const AddSongs = () => {
+interface AddSongsProps {
+  onFinish: () => void;
+}
+
+const AddSongs = (props: AddSongsProps) => {
   return (
     <Box>
-      <SongList />
+      <SongList onFinish={props.onFinish} />
     </Box>
   );
 };
