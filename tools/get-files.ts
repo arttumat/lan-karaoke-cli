@@ -1,14 +1,13 @@
+import axios from 'axios';
 import * as fs from 'fs';
 import path from 'path';
-import axios from 'axios';
+import songs from '../song-list.json';
 
 require('dotenv').config();
 
 const bearerToken = process.env.BEARER_TOKEN;
 
 const assetsPath = path.join(__dirname, '../assets');
-
-import songs from '../song-list.json';
 
 const main = async () => {
   const promises = songs.map(async (songItem) => {
@@ -60,7 +59,9 @@ async function downloadFile(name: string, song: string, variant: string) {
     },
   );
 
-  const mp3url = response.data.results[0].file;
+  const mp3url = response.data.results.find((result: any) => result.type === 'song-normal').file
+    ? response.data.results.find((result: any) => result.type === 'song-normal').file
+    : response.data.results[0].file;
 
   return axios({
     method: 'get',
