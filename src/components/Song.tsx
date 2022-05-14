@@ -8,21 +8,23 @@ type Props = {
 };
 
 const Song = ({ song }: Props) => {
+  const { lines } = song;
+
   return (
-    <Box flexDirection="row">
-      <Text>
-        {song.lines.map((line, i, lineArray) => {
-          return (
-            <Line
-              line={line}
-              start={line.start}
-              end={lineArray[i + 2] ? lineArray[i + 2].end : line.end}
-              fade={lineArray[i + 2] ? lineArray[i + 2].start : line.end}
-            />
-          );
-        })}
-      </Text>
-    </Box>
+    <Text>
+      {lines.map((line, i, lineArray) => {
+        return (
+          <Line
+            key={line.start + 'line'}
+            line={line}
+            start={line.start}
+            end={lineArray[i + 2] ? lineArray[i + 2].end : line.end}
+            delay={2000}
+            // fade={lineArray[i + 2] ? lineArray[i + 2].start : line.end}
+          />
+        );
+      })}
+    </Text>
   );
 };
 
