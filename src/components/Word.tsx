@@ -22,7 +22,13 @@ const Word = ({ word, start }: Props) => {
     };
   }, []);
 
-  return <Text color={active ? 'red' : 'green'}>{word.asString + ' '}</Text>;
+  return active ? (
+    <Gradient name="rainbow">
+      <BigText text={`${word.asString} `} />
+    </Gradient>
+  ) : (
+    <BigText text={`${word.asString} `} />
+  );
 };
 
 export default Word;

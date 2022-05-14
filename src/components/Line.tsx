@@ -29,14 +29,14 @@ const Line = ({ line, start, end, delay }: Props) => {
     };
   }, []);
   return displayLine ? (
-    <>
+    <Box flexDirection="row" alignItems="center" justifyContent="center" width="100%">
       {line.words.map((word) => {
         return (
           <Word key={word.start + 'word'} word={word} start={word.start - line.start + delay} />
         );
       })}
       <Newline />
-    </>
+    </Box>
   ) : null;
 };
 
