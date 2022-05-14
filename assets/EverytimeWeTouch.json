@@ -1,0 +1,525 @@
+{
+  "lyrics": {
+    "meta": {
+      "end": 201291,
+      "duet": false,
+      "name": "Everytime We Touch",
+      "year": 2005,
+      "start": 11333,
+      "genres": ["Pop"],
+      "artists": ["Cascada"],
+      "duration": 213346,
+      "language": "en",
+      "has_notes": false
+    },
+    "format": 1,
+    "singers": [
+      {
+        "role": "unknown",
+        "lines": [
+          {
+            "words": [
+              { "syllables": [{ "end": 11375, "text": "I", "start": 11333 }] },
+              { "syllables": [{ "end": 12125, "text": "still", "start": 11625 }] },
+              { "syllables": [{ "end": 12666, "text": "hear", "start": 12250 }] },
+              { "syllables": [{ "end": 13208, "text": "your", "start": 12750 }] },
+              { "syllables": [{ "end": 13875, "text": "voice", "start": 13208 }] }
+            ]
+          },
+          {
+            "words": [
+              { "syllables": [{ "end": 14416, "text": "when", "start": 13875 }] },
+              { "syllables": [{ "end": 14875, "text": "you", "start": 14416 }] },
+              { "syllables": [{ "end": 15458, "text": "sleep", "start": 14875 }] }
+            ]
+          },
+          {
+            "words": [
+              { "syllables": [{ "end": 15958, "text": "next", "start": 15500 }] },
+              { "syllables": [{ "end": 16416, "text": "to", "start": 16041 }] },
+              { "syllables": [{ "end": 17291, "text": "me", "start": 16541 }] }
+            ]
+          },
+          {
+            "words": [
+              { "syllables": [{ "end": 17875, "text": "I", "start": 17791 }] },
+              { "syllables": [{ "end": 18750, "text": "still", "start": 18208 }] },
+              { "syllables": [{ "end": 19250, "text": "feel", "start": 18875 }] },
+              { "syllables": [{ "end": 19833, "text": "your", "start": 19416 }] },
+              { "syllables": [{ "end": 20458, "text": "touch", "start": 19916 }] }
+            ]
+          },
+          {
+            "words": [
+              { "syllables": [{ "end": 20958, "text": "in", "start": 20541 }] },
+              { "syllables": [{ "end": 21916, "text": "my", "start": 21083 }] },
+              { "syllables": [{ "end": 23875, "text": "dreams", "start": 21958 }] }
+            ]
+          },
+          {
+            "words": [
+              { "syllables": [{ "end": 25583, "text": "Forgive", "start": 24666 }] },
+              { "syllables": [{ "end": 26208, "text": "me", "start": 25750 }] },
+              { "syllables": [{ "end": 26666, "text": "my", "start": 26250 }] },
+              { "syllables": [{ "end": 27916, "text": "weakness", "start": 26708 }] }
+            ]
+          },
+          {
+            "words": [
+              { "syllables": [{ "end": 28375, "text": "but", "start": 28000 }] },
+              { "syllables": [{ "end": 28416, "text": "I", "start": 28375 }] },
+              { "syllables": [{ "end": 29583, "text": "don't", "start": 28958 }] },
+              { "syllables": [{ "end": 30000, "text": "know", "start": 29583 }] },
+              { "syllables": [{ "end": 30875, "text": "why", "start": 30041 }] }
+            ]
+          },
+          {
+            "words": [
+              { "syllables": [{ "end": 32249, "text": "without", "start": 31333 }] },
+              { "syllables": [{ "end": 32875, "text": "you", "start": 32416 }] },
+              { "syllables": [{ "end": 33333, "text": "it's", "start": 32916 }] },
+              { "syllables": [{ "end": 33833, "text": "hard", "start": 33375 }] }
+            ]
+          },
+          {
+            "words": [
+              { "syllables": [{ "end": 34583, "text": "to", "start": 34000 }] },
+              { "syllables": [{ "end": 37416, "text": "survive", "start": 34708 }] }
+            ]
+          },
+          {
+            "words": [
+              { "syllables": [{ "end": 38083, "text": "'Cause", "start": 37791 }] },
+              { "syllables": [{ "end": 38250, "text": "every", "start": 38083 }] },
+              { "syllables": [{ "end": 38500, "text": "time", "start": 38250 }] }
+            ]
+          },
+          {
+            "words": [
+              { "syllables": [{ "end": 38666, "text": "we", "start": 38500 }] },
+              { "syllables": [{ "end": 39041, "text": "touch", "start": 38666 }] }
+            ]
+          },
+          {
+            "words": [
+              { "syllables": [{ "end": 39333, "text": "I", "start": 39208 }] },
+              { "syllables": [{ "end": 39750, "text": "get", "start": 39375 }] },
+              { "syllables": [{ "end": 40041, "text": "this", "start": 39791 }] },
+              { "syllables": [{ "end": 40833, "text": "feeling", "start": 40125 }] }
+            ]
+          },
+          {
+            "words": [
+              { "syllables": [{ "end": 41083, "text": "and", "start": 40916 }] },
+              { "syllables": [{ "end": 41416, "text": "every", "start": 41083 }] },
+              { "syllables": [{ "end": 41708, "text": "time", "start": 41458 }] },
+              { "syllables": [{ "end": 41958, "text": "we", "start": 41708 }] },
+              { "syllables": [{ "end": 42333, "text": "kiss", "start": 41958 }] }
+            ]
+          },
+          {
+            "words": [
+              { "syllables": [{ "end": 42541, "text": "I", "start": 42375 }] },
+              { "syllables": [{ "end": 43000, "text": "swear", "start": 42625 }] },
+              { "syllables": [{ "end": 43166, "text": "I", "start": 43041 }] },
+              { "syllables": [{ "end": 43375, "text": "can", "start": 43208 }] },
+              { "syllables": [{ "end": 44000, "text": "fly", "start": 43416 }] }
+            ]
+          },
+          {
+            "words": [
+              { "syllables": [{ "end": 44666, "text": "Can", "start": 44458 }] },
+              { "syllables": [{ "end": 44875, "text": "you", "start": 44666 }] },
+              { "syllables": [{ "end": 45083, "text": "feel", "start": 44875 }] },
+              { "syllables": [{ "end": 45250, "text": "my", "start": 45083 }] }
+            ]
+          },
+          {
+            "words": [
+              { "syllables": [{ "end": 45625, "text": "heart", "start": 45333 }] },
+              { "syllables": [{ "end": 46083, "text": "beat", "start": 45708 }] },
+              { "syllables": [{ "end": 46500, "text": "fast?", "start": 46125 }] }
+            ]
+          },
+          {
+            "words": [
+              { "syllables": [{ "end": 46833, "text": "I", "start": 46791 }] },
+              { "syllables": [{ "end": 47250, "text": "want", "start": 47000 }] },
+              { "syllables": [{ "end": 47375, "text": "this", "start": 47250 }] },
+              { "syllables": [{ "end": 47625, "text": "to", "start": 47416 }] },
+              { "syllables": [{ "end": 48208, "text": "last", "start": 47666 }] }
+            ]
+          },
+          {
+            "words": [
+              { "syllables": [{ "end": 49083, "text": "need", "start": 48666 }] },
+              { "syllables": [{ "end": 49375, "text": "you", "start": 49083 }] },
+              { "syllables": [{ "end": 49625, "text": "by", "start": 49375 }] },
+              { "syllables": [{ "end": 50125, "text": "my", "start": 49750 }] },
+              { "syllables": [{ "end": 50708, "text": "side", "start": 50166 }] }
+            ]
+          },
+          {
+            "words": [
+              { "syllables": [{ "end": 51208, "text": "'Cause", "start": 51000 }] },
+              { "syllables": [{ "end": 51625, "text": "every", "start": 51250 }] },
+              { "syllables": [{ "end": 51833, "text": "time", "start": 51625 }] }
+            ]
+          },
+          {
+            "words": [
+              { "syllables": [{ "end": 52041, "text": "we", "start": 51875 }] },
+              { "syllables": [{ "end": 52458, "text": "touch", "start": 52083 }] }
+            ]
+          },
+          {
+            "words": [
+              { "syllables": [{ "end": 52875, "text": "I", "start": 52708 }] },
+              { "syllables": [{ "end": 53250, "text": "feel", "start": 52916 }] },
+              { "syllables": [{ "end": 53625, "text": "the", "start": 53291 }] },
+              { "syllables": [{ "end": 54375, "text": "static", "start": 53625 }] }
+            ]
+          },
+          {
+            "words": [
+              { "syllables": [{ "end": 54583, "text": "and", "start": 54375 }] },
+              { "syllables": [{ "end": 55000, "text": "every", "start": 54625 }] },
+              { "syllables": [{ "end": 55208, "text": "time", "start": 55000 }] },
+              { "syllables": [{ "end": 55416, "text": "we", "start": 55250 }] },
+              { "syllables": [{ "end": 55708, "text": "kiss", "start": 55458 }] }
+            ]
+          },
+          {
+            "words": [
+              { "syllables": [{ "end": 56125, "text": "I", "start": 56000 }] },
+              { "syllables": [{ "end": 56500, "text": "reach", "start": 56208 }] },
+              { "syllables": [{ "end": 56708, "text": "for", "start": 56541 }] },
+              { "syllables": [{ "end": 56958, "text": "the", "start": 56708 }] },
+              { "syllables": [{ "end": 57625, "text": "sky", "start": 56958 }] }
+            ]
+          },
+          {
+            "words": [
+              { "syllables": [{ "end": 58250, "text": "Can't", "start": 58000 }] },
+              { "syllables": [{ "end": 58458, "text": "you", "start": 58291 }] },
+              { "syllables": [{ "end": 58625, "text": "hear", "start": 58458 }] },
+              { "syllables": [{ "end": 58833, "text": "my", "start": 58625 }] }
+            ]
+          },
+          {
+            "words": [
+              { "syllables": [{ "end": 59250, "text": "heart", "start": 58875 }] },
+              { "syllables": [{ "end": 59666, "text": "beat", "start": 59250 }] },
+              { "syllables": [{ "end": 60000, "text": "so?", "start": 59666 }] }
+            ]
+          },
+          {
+            "words": [
+              { "syllables": [{ "end": 60375, "text": "I", "start": 60208 }] },
+              { "syllables": [{ "end": 60833, "text": "can't", "start": 60500 }] },
+              { "syllables": [{ "end": 61041, "text": "let", "start": 60875 }] },
+              { "syllables": [{ "end": 61250, "text": "you", "start": 61083 }] },
+              { "syllables": [{ "end": 61666, "text": "go", "start": 61250 }] }
+            ]
+          },
+          {
+            "words": [
+              { "syllables": [{ "end": 62583, "text": "want", "start": 62208 }] },
+              { "syllables": [{ "end": 62958, "text": "you", "start": 62625 }] },
+              { "syllables": [{ "end": 63208, "text": "in", "start": 62958 }] },
+              { "syllables": [{ "end": 63666, "text": "my", "start": 63291 }] },
+              { "syllables": [{ "end": 65249, "text": "life", "start": 63708 }] }
+            ]
+          },
+          {
+            "words": [
+              { "syllables": [{ "end": 108000, "text": "Your", "start": 107708 }] },
+              { "syllables": [{ "end": 108500, "text": "arms", "start": 108000 }] },
+              { "syllables": [{ "end": 109000, "text": "are", "start": 108625 }] },
+              { "syllables": [{ "end": 109416, "text": "my", "start": 109041 }] },
+              { "syllables": [{ "end": 110625, "text": "castle", "start": 109500 }] }
+            ]
+          },
+          {
+            "words": [
+              { "syllables": [{ "end": 111125, "text": "Your", "start": 110750 }] },
+              { "syllables": [{ "end": 111666, "text": "heart", "start": 111166 }] },
+              { "syllables": [{ "end": 112166, "text": "is", "start": 111791 }] },
+              { "syllables": [{ "end": 112791, "text": "my", "start": 112333 }] },
+              { "syllables": [{ "end": 113625, "text": "sky", "start": 112833 }] }
+            ]
+          },
+          {
+            "words": [
+              { "syllables": [{ "end": 114500, "text": "they", "start": 114166 }] },
+              { "syllables": [{ "end": 115250, "text": "wipe", "start": 114541 }] },
+              { "syllables": [{ "end": 116125, "text": "away", "start": 115333 }] }
+            ]
+          },
+          {
+            "words": [
+              { "syllables": [{ "end": 116833, "text": "tears", "start": 116250 }] },
+              { "syllables": [{ "end": 117375, "text": "that", "start": 116875 }] },
+              { "syllables": [{ "end": 117458, "text": "I", "start": 117416 }] },
+              { "syllables": [{ "end": 119791, "text": "cry", "start": 118333 }] }
+            ]
+          },
+          {
+            "words": [
+              { "syllables": [{ "end": 121250, "text": "The", "start": 120916 }] },
+              { "syllables": [{ "end": 121958, "text": "good", "start": 121333 }] },
+              { "syllables": [{ "end": 122416, "text": "and", "start": 122041 }] },
+              { "syllables": [{ "end": 122958, "text": "the", "start": 122500 }] },
+              { "syllables": [{ "end": 123541, "text": "bad", "start": 123000 }] }
+            ]
+          },
+          {
+            "words": [
+              { "syllables": [{ "end": 124208, "text": "times", "start": 123750 }] },
+              { "syllables": [{ "end": 124708, "text": "we've", "start": 124291 }] },
+              { "syllables": [{ "end": 125291, "text": "been", "start": 124708 }] }
+            ]
+          },
+          {
+            "words": [
+              { "syllables": [{ "end": 125958, "text": "through", "start": 125333 }] },
+              { "syllables": [{ "end": 126291, "text": "them", "start": 125958 }] },
+              { "syllables": [{ "end": 127166, "text": "all", "start": 126375 }] }
+            ]
+          },
+          {
+            "words": [
+              { "syllables": [{ "end": 128416, "text": "you", "start": 127666 }] },
+              { "syllables": [{ "end": 129249, "text": "make", "start": 128499 }] },
+              { "syllables": [{ "end": 129666, "text": "me", "start": 129291 }] },
+              { "syllables": [{ "end": 130374, "text": "rise", "start": 129708 }] }
+            ]
+          },
+          {
+            "words": [
+              { "syllables": [{ "end": 130874, "text": "when", "start": 130416 }] },
+              { "syllables": [{ "end": 130916, "text": "I", "start": 130874 }] },
+              { "syllables": [{ "end": 133333, "text": "fall...", "start": 131791 }] }
+            ]
+          },
+          {
+            "words": [
+              { "syllables": [{ "end": 134125, "text": "'Cause", "start": 133916 }] },
+              { "syllables": [{ "end": 134458, "text": "every", "start": 134125 }] },
+              { "syllables": [{ "end": 134666, "text": "time", "start": 134458 }] }
+            ]
+          },
+          {
+            "words": [
+              { "syllables": [{ "end": 134875, "text": "we", "start": 134708 }] },
+              { "syllables": [{ "end": 135291, "text": "touch", "start": 134916 }] }
+            ]
+          },
+          {
+            "words": [
+              { "syllables": [{ "end": 135666, "text": "I", "start": 135541 }] },
+              { "syllables": [{ "end": 136083, "text": "get", "start": 135708 }] },
+              { "syllables": [{ "end": 136458, "text": "this", "start": 136125 }] },
+              { "syllables": [{ "end": 137166, "text": "feeling", "start": 136541 }] }
+            ]
+          },
+          {
+            "words": [
+              { "syllables": [{ "end": 137416, "text": "and", "start": 137250 }] },
+              { "syllables": [{ "end": 137833, "text": "every", "start": 137458 }] },
+              { "syllables": [{ "end": 138041, "text": "time", "start": 137875 }] },
+              { "syllables": [{ "end": 138250, "text": "we", "start": 138041 }] },
+              { "syllables": [{ "end": 138666, "text": "kiss", "start": 138291 }] }
+            ]
+          },
+          {
+            "words": [
+              { "syllables": [{ "end": 138875, "text": "I", "start": 138708 }] },
+              { "syllables": [{ "end": 139291, "text": "swear", "start": 138916 }] },
+              { "syllables": [{ "end": 139458, "text": "I", "start": 139333 }] },
+              { "syllables": [{ "end": 139750, "text": "can", "start": 139500 }] },
+              { "syllables": [{ "end": 140291, "text": "fly", "start": 139791 }] }
+            ]
+          },
+          {
+            "words": [
+              { "syllables": [{ "end": 141000, "text": "Can't", "start": 140791 }] },
+              { "syllables": [{ "end": 141208, "text": "you", "start": 141000 }] },
+              { "syllables": [{ "end": 141416, "text": "feel", "start": 141208 }] },
+              { "syllables": [{ "end": 141625, "text": "my", "start": 141416 }] }
+            ]
+          },
+          {
+            "words": [
+              { "syllables": [{ "end": 141958, "text": "heart", "start": 141625 }] },
+              { "syllables": [{ "end": 142416, "text": "beat", "start": 142041 }] },
+              { "syllables": [{ "end": 142875, "text": "fast?", "start": 142500 }] }
+            ]
+          },
+          {
+            "words": [
+              { "syllables": [{ "end": 143208, "text": "I", "start": 143166 }] },
+              { "syllables": [{ "end": 143500, "text": "want", "start": 143375 }] },
+              { "syllables": [{ "end": 143750, "text": "this", "start": 143541 }] },
+              { "syllables": [{ "end": 143958, "text": "to", "start": 143750 }] },
+              { "syllables": [{ "end": 144541, "text": "last", "start": 143958 }] }
+            ]
+          },
+          {
+            "words": [
+              { "syllables": [{ "end": 145416, "text": "need", "start": 145041 }] },
+              { "syllables": [{ "end": 145708, "text": "you", "start": 145458 }] },
+              { "syllables": [{ "end": 146000, "text": "by", "start": 145750 }] },
+              { "syllables": [{ "end": 146541, "text": "my", "start": 146125 }] },
+              { "syllables": [{ "end": 147000, "text": "side", "start": 146583 }] }
+            ]
+          },
+          {
+            "words": [
+              { "syllables": [{ "end": 147541, "text": "'Cause", "start": 147375 }] },
+              { "syllables": [{ "end": 148000, "text": "every", "start": 147583 }] },
+              { "syllables": [{ "end": 148166, "text": "time", "start": 148000 }] }
+            ]
+          },
+          {
+            "words": [
+              { "syllables": [{ "end": 148375, "text": "we", "start": 148208 }] },
+              { "syllables": [{ "end": 148875, "text": "touch", "start": 148416 }] }
+            ]
+          },
+          {
+            "words": [
+              { "syllables": [{ "end": 149208, "text": "I", "start": 149041 }] },
+              { "syllables": [{ "end": 149625, "text": "feel", "start": 149250 }] },
+              { "syllables": [{ "end": 149958, "text": "the", "start": 149666 }] },
+              { "syllables": [{ "end": 150708, "text": "static", "start": 150000 }] }
+            ]
+          },
+          {
+            "words": [
+              { "syllables": [{ "end": 150958, "text": "and", "start": 150750 }] },
+              { "syllables": [{ "end": 151375, "text": "every", "start": 150958 }] },
+              { "syllables": [{ "end": 151583, "text": "time", "start": 151375 }] },
+              { "syllables": [{ "end": 151791, "text": "we", "start": 151583 }] },
+              { "syllables": [{ "end": 152166, "text": "kiss", "start": 151791 }] }
+            ]
+          },
+          {
+            "words": [
+              { "syllables": [{ "end": 152375, "text": "I", "start": 152250 }] },
+              { "syllables": [{ "end": 152833, "text": "reach", "start": 152458 }] },
+              { "syllables": [{ "end": 153000, "text": "for", "start": 152833 }] },
+              { "syllables": [{ "end": 153291, "text": "the", "start": 153041 }] },
+              { "syllables": [{ "end": 153916, "text": "sky", "start": 153291 }] }
+            ]
+          },
+          {
+            "words": [
+              { "syllables": [{ "end": 154541, "text": "Can't", "start": 154333 }] },
+              { "syllables": [{ "end": 154750, "text": "you", "start": 154541 }] },
+              { "syllables": [{ "end": 154916, "text": "hear", "start": 154750 }] },
+              { "syllables": [{ "end": 155125, "text": "my", "start": 154958 }] }
+            ]
+          },
+          {
+            "words": [
+              { "syllables": [{ "end": 155541, "text": "heart", "start": 155166 }] },
+              { "syllables": [{ "end": 155958, "text": "beat", "start": 155583 }] },
+              { "syllables": [{ "end": 156333, "text": "so?", "start": 156000 }] }
+            ]
+          },
+          {
+            "words": [
+              { "syllables": [{ "end": 156666, "text": "I", "start": 156625 }] },
+              { "syllables": [{ "end": 157041, "text": "can't", "start": 156833 }] },
+              { "syllables": [{ "end": 157250, "text": "let", "start": 157083 }] },
+              { "syllables": [{ "end": 157541, "text": "you", "start": 157291 }] },
+              { "syllables": [{ "end": 158041, "text": "go", "start": 157541 }] }
+            ]
+          },
+          {
+            "words": [
+              { "syllables": [{ "end": 158916, "text": "want", "start": 158583 }] },
+              { "syllables": [{ "end": 159208, "text": "you", "start": 158958 }] },
+              { "syllables": [{ "end": 159500, "text": "in", "start": 159208 }] },
+              { "syllables": [{ "end": 159958, "text": "my", "start": 159625 }] },
+              { "syllables": [{ "end": 161416, "text": "life", "start": 160000 }] }
+            ]
+          },
+          {
+            "words": [
+              { "syllables": [{ "end": 188208, "text": "'Cause", "start": 188000 }] },
+              { "syllables": [{ "end": 188541, "text": "every", "start": 188208 }] },
+              { "syllables": [{ "end": 188791, "text": "time", "start": 188541 }] }
+            ]
+          },
+          {
+            "words": [
+              { "syllables": [{ "end": 188958, "text": "we", "start": 188791 }] },
+              { "syllables": [{ "end": 189333, "text": "touch", "start": 188958 }] }
+            ]
+          },
+          {
+            "words": [
+              { "syllables": [{ "end": 189791, "text": "I", "start": 189625 }] },
+              { "syllables": [{ "end": 190166, "text": "get", "start": 189833 }] },
+              { "syllables": [{ "end": 190416, "text": "this", "start": 190208 }] },
+              { "syllables": [{ "end": 191250, "text": "feeling", "start": 190500 }] }
+            ]
+          },
+          {
+            "words": [
+              { "syllables": [{ "end": 191541, "text": "and", "start": 191333 }] },
+              { "syllables": [{ "end": 191916, "text": "every", "start": 191541 }] },
+              { "syllables": [{ "end": 192125, "text": "time", "start": 191916 }] },
+              { "syllables": [{ "end": 192333, "text": "we", "start": 192125 }] },
+              { "syllables": [{ "end": 192750, "text": "kiss", "start": 192375 }] }
+            ]
+          },
+          {
+            "words": [
+              { "syllables": [{ "end": 192916, "text": "I", "start": 192791 }] },
+              { "syllables": [{ "end": 193375, "text": "swear", "start": 193000 }] },
+              { "syllables": [{ "end": 193541, "text": "I", "start": 193416 }] },
+              { "syllables": [{ "end": 193833, "text": "can", "start": 193625 }] },
+              { "syllables": [{ "end": 194375, "text": "fly", "start": 193875 }] }
+            ]
+          },
+          {
+            "words": [
+              { "syllables": [{ "end": 195125, "text": "Can't", "start": 194875 }] },
+              { "syllables": [{ "end": 195291, "text": "you", "start": 195125 }] },
+              { "syllables": [{ "end": 195500, "text": "feel", "start": 195291 }] },
+              { "syllables": [{ "end": 195708, "text": "my", "start": 195500 }] }
+            ]
+          },
+          {
+            "words": [
+              { "syllables": [{ "end": 196083, "text": "heart", "start": 195750 }] },
+              { "syllables": [{ "end": 196500, "text": "beat", "start": 196125 }] },
+              { "syllables": [{ "end": 196958, "text": "fast?", "start": 196583 }] }
+            ]
+          },
+          {
+            "words": [
+              { "syllables": [{ "end": 197250, "text": "I", "start": 197208 }] },
+              { "syllables": [{ "end": 197625, "text": "want", "start": 197458 }] },
+              { "syllables": [{ "end": 197791, "text": "this", "start": 197666 }] },
+              { "syllables": [{ "end": 198041, "text": "to", "start": 197833 }] },
+              { "syllables": [{ "end": 198625, "text": "last", "start": 198041 }] }
+            ]
+          },
+          {
+            "words": [
+              { "syllables": [{ "end": 199500, "text": "need", "start": 199125 }] },
+              { "syllables": [{ "end": 199791, "text": "you", "start": 199541 }] },
+              { "syllables": [{ "end": 200041, "text": "by", "start": 199791 }] },
+              { "syllables": [{ "end": 200583, "text": "my", "start": 200166 }] },
+              { "syllables": [{ "end": 201291, "text": "side", "start": 200625 }] }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
