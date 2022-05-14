@@ -1,0 +1,2641 @@
+{
+  "lyrics": {
+    "meta": {
+      "end": 264331,
+      "duet": false,
+      "name": "Hey Stoopid",
+      "year": 1991,
+      "start": 11970,
+      "genres": ["Rock", "Metal"],
+      "artists": ["Alice Cooper"],
+      "duration": 276115,
+      "language": "en",
+      "has_notes": false
+    },
+    "format": 1,
+    "singers": [
+      {
+        "role": "unknown",
+        "lines": [
+          {
+            "words": [
+              {
+                "syllables": [
+                  { "end": 11970, "text": "H", "start": 11970 },
+                  { "end": 12320, "text": "e", "start": 12170 },
+                  { "end": 12436, "text": "y", "start": 12320 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 12736, "text": "h", "start": 12550 },
+                  { "end": 12880, "text": "e", "start": 12736 },
+                  { "end": 12996, "text": "y", "start": 12880 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 13270, "text": "h", "start": 13110 },
+                  { "end": 13390, "text": "e", "start": 13270 },
+                  { "end": 13480, "text": "y", "start": 13390 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 13750, "text": "h", "start": 13570 },
+                  { "end": 13993, "text": "e", "start": 13810 },
+                  { "end": 14176, "text": "y", "start": 13993 }
+                ]
+              }
+            ]
+          },
+          {
+            "words": [
+              {
+                "syllables": [
+                  { "end": 15833, "text": "H", "start": 15590 },
+                  { "end": 16015, "text": "e", "start": 15833 },
+                  { "end": 16170, "text": "y", "start": 16015 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 16480, "text": "h", "start": 16320 },
+                  { "end": 16600, "text": "e", "start": 16480 },
+                  { "end": 16696, "text": "y", "start": 16600 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 16950, "text": "h", "start": 16790 },
+                  { "end": 17070, "text": "e", "start": 16950 },
+                  { "end": 17166, "text": "y", "start": 17070 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 17450, "text": "h", "start": 17260 },
+                  { "end": 17750, "text": "e", "start": 17540 },
+                  { "end": 17960, "text": "y", "start": 17750 }
+                ]
+              }
+            ]
+          },
+          {
+            "words": [
+              {
+                "syllables": [
+                  { "end": 18940, "text": "H", "start": 18770 },
+                  { "end": 19060, "text": "e", "start": 18940 },
+                  { "end": 19160, "text": "y", "start": 19060 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 19340, "text": "s", "start": 19260 },
+                  { "end": 19420, "text": "t", "start": 19340 },
+                  { "end": 19506, "text": "u", "start": 19423 },
+                  { "end": 19637, "text": "p", "start": 19530 },
+                  { "end": 20003, "text": "i", "start": 19906 },
+                  { "end": 20100, "text": "d", "start": 20003 }
+                ]
+              }
+            ]
+          },
+          {
+            "words": [
+              {
+                "syllables": [
+                  { "end": 38463, "text": "H", "start": 38320 },
+                  { "end": 38596, "text": "e", "start": 38463 },
+                  { "end": 38663, "text": "y", "start": 38596 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 38864, "text": "b", "start": 38730 },
+                  { "end": 39086, "text": "r", "start": 38936 },
+                  { "end": 39236, "text": "o", "start": 39086 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 39603, "text": "t", "start": 39560 },
+                  { "end": 39643, "text": "a", "start": 39603 },
+                  { "end": 39683, "text": "k", "start": 39643 },
+                  { "end": 39720, "text": "e", "start": 39700 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 39780, "text": "i", "start": 39740 },
+                  { "end": 40000, "text": "t", "start": 39910 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 40270, "text": "s", "start": 40090 },
+                  { "end": 40450, "text": "l", "start": 40303 },
+                  { "end": 40597, "text": "o", "start": 40450 },
+                  { "end": 41022, "text": "w", "start": 40736 }
+                ]
+              }
+            ]
+          },
+          {
+            "words": [
+              {
+                "syllables": [
+                  { "end": 41756, "text": "Y", "start": 41670 },
+                  { "end": 41842, "text": "o", "start": 41756 },
+                  { "end": 41896, "text": "u", "start": 41850 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 42030, "text": "a", "start": 41940 },
+                  { "end": 42123, "text": "i", "start": 42050 },
+                  { "end": 42196, "text": "n", "start": 42123 },
+                  { "end": 42303, "text": "'", "start": 42270 },
+                  { "end": 42336, "text": "t", "start": 42303 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 42466, "text": "l", "start": 42400 },
+                  { "end": 42532, "text": "i", "start": 42466 },
+                  { "end": 42600, "text": "v", "start": 42533 },
+                  { "end": 42686, "text": "i", "start": 42620 },
+                  { "end": 42752, "text": "n", "start": 42686 },
+                  { "end": 42850, "text": "'", "start": 42820 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 42940, "text": "i", "start": 42880 },
+                  { "end": 43026, "text": "n", "start": 42953 }
+                ]
+              },
+              { "syllables": [{ "end": 43236, "text": "a", "start": 43100 }] },
+              {
+                "syllables": [
+                  { "end": 43506, "text": "v", "start": 43370 },
+                  { "end": 43540, "text": "i", "start": 43506 },
+                  { "end": 43574, "text": "d", "start": 43540 },
+                  { "end": 44050, "text": "e", "start": 43796 },
+                  { "end": 44304, "text": "o", "start": 44050 }
+                ]
+              }
+            ]
+          },
+          {
+            "words": [
+              {
+                "syllables": [
+                  { "end": 45526, "text": "Y", "start": 45490 },
+                  { "end": 45562, "text": "o", "start": 45526 },
+                  { "end": 45603, "text": "u", "start": 45566 },
+                  { "end": 45606, "text": "'", "start": 45603 },
+                  { "end": 45609, "text": "r", "start": 45606 },
+                  { "end": 45636, "text": "e", "start": 45623 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 45677, "text": "fl", "start": 45650 },
+                  { "end": 45890, "text": "y", "start": 45770 },
+                  { "end": 45926, "text": "i", "start": 45890 },
+                  { "end": 45962, "text": "n", "start": 45926 },
+                  { "end": 46106, "text": "'", "start": 46070 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 46180, "text": "l", "start": 46140 },
+                  { "end": 46220, "text": "o", "start": 46180 },
+                  { "end": 46506, "text": "w", "start": 46343 }
+                ]
+              }
+            ]
+          },
+          {
+            "words": [
+              {
+                "syllables": [
+                  { "end": 46703, "text": "a", "start": 46580 },
+                  { "end": 46766, "text": "t", "start": 46703 }
+                ]
+              },
+              { "syllables": [{ "end": 46950, "text": "a", "start": 46830 }] },
+              {
+                "syllables": [
+                  { "end": 47220, "text": "h", "start": 47070 },
+                  { "end": 47260, "text": "i", "start": 47220 },
+                  { "end": 47300, "text": "g", "start": 47260 },
+                  { "end": 47490, "text": "h", "start": 47420 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 47640, "text": "v", "start": 47560 },
+                  { "end": 47700, "text": "e", "start": 47640 },
+                  { "end": 47750, "text": "l", "start": 47700 },
+                  { "end": 47800, "text": "o", "start": 47750 },
+                  { "end": 48610, "text": "c", "start": 48410 },
+                  { "end": 48660, "text": "i", "start": 48610 },
+                  { "end": 48710, "text": "ty", "start": 48660 }
+                ]
+              }
+            ]
+          },
+          {
+            "words": [
+              {
+                "syllables": [
+                  { "end": 53330, "text": "N", "start": 53080 },
+                  { "end": 53430, "text": "o", "start": 53330 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 53666, "text": "d", "start": 53530 },
+                  { "end": 53802, "text": "o", "start": 53666 },
+                  { "end": 53940, "text": "u", "start": 53803 },
+                  { "end": 54077, "text": "b", "start": 53940 },
+                  { "end": 54130, "text": "t", "start": 54080 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 54246, "text": "y", "start": 54180 },
+                  { "end": 54310, "text": "o", "start": 54246 },
+                  { "end": 54373, "text": "u", "start": 54310 },
+                  { "end": 54386, "text": "'", "start": 54373 },
+                  { "end": 54399, "text": "r", "start": 54386 },
+                  { "end": 54453, "text": "e", "start": 54426 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 54534, "text": "s", "start": 54480 },
+                  { "end": 54570, "text": "t", "start": 54540 },
+                  { "end": 54600, "text": "r", "start": 54570 },
+                  { "end": 54650, "text": "e", "start": 54610 },
+                  { "end": 54702, "text": "s", "start": 54656 },
+                  { "end": 54764, "text": "s", "start": 54710 },
+                  { "end": 54926, "text": "i", "start": 54883 },
+                  { "end": 54969, "text": "n", "start": 54926 },
+                  { "end": 55123, "text": "'", "start": 55086 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 55234, "text": "o", "start": 55160 },
+                  { "end": 55666, "text": "u", "start": 55450 },
+                  { "end": 55882, "text": "t", "start": 55666 }
+                ]
+              }
+            ]
+          },
+          {
+            "words": [
+              {
+                "syllables": [
+                  { "end": 56620, "text": "T", "start": 56550 },
+                  { "end": 56683, "text": "h", "start": 56620 },
+                  { "end": 56733, "text": "a", "start": 56683 },
+                  { "end": 56756, "text": "t", "start": 56733 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 56827, "text": "a", "start": 56780 },
+                  { "end": 56886, "text": "i", "start": 56866 },
+                  { "end": 56906, "text": "n", "start": 56886 },
+                  { "end": 57006, "text": "'", "start": 56970 },
+                  { "end": 57030, "text": "t", "start": 57006 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 57094, "text": "w", "start": 57050 },
+                  { "end": 57173, "text": "h", "start": 57123 },
+                  { "end": 57213, "text": "a", "start": 57173 },
+                  { "end": 57250, "text": "t", "start": 57213 }
+                ]
+              }
+            ]
+          },
+          {
+            "words": [
+              {
+                "syllables": [
+                  { "end": 57287, "text": "r", "start": 57250 },
+                  { "end": 57370, "text": "o", "start": 57310 },
+                  { "end": 57446, "text": "c", "start": 57390 },
+                  { "end": 57483, "text": "k", "start": 57446 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 57594, "text": "n", "start": 57520 },
+                  { "end": 57896, "text": "'", "start": 57853 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 58023, "text": "r", "start": 57940 },
+                  { "end": 58106, "text": "o", "start": 58023 },
+                  { "end": 58163, "text": "l", "start": 58133 },
+                  { "end": 58193, "text": "l", "start": 58163 },
+                  { "end": 58289, "text": "'", "start": 58226 },
+                  { "end": 58330, "text": "s", "start": 58290 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 58450, "text": "a", "start": 58370 },
+                  { "end": 59086, "text": "b", "start": 58870 },
+                  { "end": 59300, "text": "o", "start": 59086 },
+                  { "end": 59460, "text": "u", "start": 59300 },
+                  { "end": 59620, "text": "t", "start": 59460 }
+                ]
+              }
+            ]
+          },
+          {
+            "words": [
+              {
+                "syllables": [
+                  { "end": 60373, "text": "G", "start": 60290 },
+                  { "end": 60433, "text": "e", "start": 60373 },
+                  { "end": 60446, "text": "t", "start": 60433 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 60487, "text": "o", "start": 60460 },
+                  { "end": 60626, "text": "ff", "start": 60550 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 60733, "text": "t", "start": 60700 },
+                  { "end": 60766, "text": "h", "start": 60733 },
+                  { "end": 60873, "text": "a", "start": 60803 },
+                  { "end": 60893, "text": "t", "start": 60873 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 60947, "text": "o", "start": 60910 },
+                  { "end": 61236, "text": "n", "start": 61073 },
+                  { "end": 61300, "text": "e", "start": 61236 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 61484, "text": "w", "start": 61360 },
+                  { "end": 61660, "text": "a", "start": 61543 },
+                  { "end": 61750, "text": "y", "start": 61660 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 61933, "text": "t", "start": 61840 },
+                  { "end": 62026, "text": "r", "start": 61933 },
+                  { "end": 62120, "text": "i", "start": 62073 },
+                  { "end": 62167, "text": "p", "start": 62120 }
+                ]
+              }
+            ]
+          },
+          {
+            "words": [
+              {
+                "syllables": [
+                  { "end": 62430, "text": "d", "start": 62310 },
+                  { "end": 62520, "text": "o", "start": 62430 },
+                  { "end": 62610, "text": "w", "start": 62520 },
+                  { "end": 62740, "text": "n", "start": 62686 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 62856, "text": "l", "start": 62790 },
+                  { "end": 62922, "text": "o", "start": 62856 },
+                  { "end": 63120, "text": "n", "start": 62990 },
+                  { "end": 63240, "text": "e", "start": 63120 },
+                  { "end": 63286, "text": "l", "start": 63240 },
+                  { "end": 63332, "text": "y", "start": 63286 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 63654, "text": "s", "start": 63470 },
+                  { "end": 64006, "text": "t", "start": 63790 },
+                  { "end": 64222, "text": "r", "start": 64006 },
+                  { "end": 64644, "text": "e", "start": 64325 },
+                  { "end": 65075, "text": "e", "start": 64756 },
+                  { "end": 65394, "text": "t", "start": 65075 }
+                ]
+              }
+            ]
+          },
+          {
+            "words": [
+              {
+                "syllables": [
+                  { "end": 67133, "text": "N", "start": 67040 },
+                  { "end": 67216, "text": "o", "start": 67133 },
+                  { "end": 67270, "text": "w", "start": 67216 }
+                ]
+              },
+              { "syllables": [{ "end": 67424, "text": "I", "start": 67320 }] },
+              {
+                "syllables": [
+                  { "end": 67953, "text": "k", "start": 67840 },
+                  { "end": 68060, "text": "n", "start": 67953 },
+                  { "end": 68140, "text": "o", "start": 68060 },
+                  { "end": 68220, "text": "w", "start": 68140 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 68396, "text": "y", "start": 68300 },
+                  { "end": 68483, "text": "o", "start": 68396 },
+                  { "end": 68570, "text": "u", "start": 68483 },
+                  { "end": 68620, "text": "'", "start": 68570 },
+                  { "end": 68670, "text": "v", "start": 68620 },
+                  { "end": 68726, "text": "e", "start": 68683 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 68857, "text": "b", "start": 68770 },
+                  { "end": 68983, "text": "e", "start": 68893 },
+                  { "end": 69073, "text": "e", "start": 68983 },
+                  { "end": 69220, "text": "n", "start": 69103 }
+                ]
+              }
+            ]
+          },
+          {
+            "words": [
+              {
+                "syllables": [
+                  { "end": 69290, "text": "k", "start": 69220 },
+                  { "end": 69336, "text": "i", "start": 69290 },
+                  { "end": 69382, "text": "c", "start": 69336 },
+                  { "end": 69503, "text": "k", "start": 69430 },
+                  { "end": 69576, "text": "e", "start": 69503 },
+                  { "end": 69643, "text": "d", "start": 69593 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 69787, "text": "a", "start": 69690 },
+                  { "end": 70026, "text": "r", "start": 69900 },
+                  { "end": 70152, "text": "o", "start": 70026 },
+                  { "end": 70373, "text": "u", "start": 70200 },
+                  { "end": 70546, "text": "n", "start": 70373 },
+                  { "end": 70719, "text": "d", "start": 70546 }
+                ]
+              }
+            ]
+          },
+          {
+            "words": [
+              {
+                "syllables": [
+                  { "end": 71490, "text": "Y", "start": 71430 },
+                  { "end": 71550, "text": "o", "start": 71490 },
+                  { "end": 71583, "text": "u", "start": 71556 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 71664, "text": "a", "start": 71610 },
+                  { "end": 71693, "text": "i", "start": 71676 },
+                  { "end": 71710, "text": "n", "start": 71693 },
+                  { "end": 71773, "text": "'", "start": 71753 },
+                  { "end": 71786, "text": "t", "start": 71773 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 71827, "text": "a", "start": 71800 },
+                  { "end": 72100, "text": "l", "start": 72030 },
+                  { "end": 72170, "text": "o", "start": 72100 },
+                  { "end": 72380, "text": "n", "start": 72240 },
+                  { "end": 72520, "text": "e", "start": 72380 }
+                ]
+              }
+            ]
+          },
+          {
+            "words": [
+              {
+                "syllables": [
+                  { "end": 72570, "text": "i", "start": 72520 },
+                  { "end": 72620, "text": "n", "start": 72570 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 72796, "text": "t", "start": 72750 },
+                  { "end": 72842, "text": "h", "start": 72796 },
+                  { "end": 72936, "text": "i", "start": 72890 },
+                  { "end": 72970, "text": "s", "start": 72936 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 73064, "text": "u", "start": 73000 },
+                  { "end": 73186, "text": "g", "start": 73093 },
+                  { "end": 73270, "text": "l", "start": 73190 },
+                  { "end": 73350, "text": "y", "start": 73270 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 73756, "text": "t", "start": 73650 },
+                  { "end": 73862, "text": "o", "start": 73756 },
+                  { "end": 74156, "text": "w", "start": 73956 },
+                  { "end": 74456, "text": "n", "start": 74206 }
+                ]
+              }
+            ]
+          },
+          {
+            "words": [
+              {
+                "syllables": [
+                  { "end": 74723, "text": "I", "start": 74650 },
+                  { "end": 74796, "text": "f", "start": 74723 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 74997, "text": "y", "start": 74860 },
+                  { "end": 75163, "text": "o", "start": 75013 },
+                  { "end": 75240, "text": "u", "start": 75163 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 75360, "text": "s", "start": 75316 },
+                  { "end": 75400, "text": "t", "start": 75360 },
+                  { "end": 75416, "text": "i", "start": 75400 },
+                  { "end": 75432, "text": "c", "start": 75416 },
+                  { "end": 75483, "text": "k", "start": 75460 }
+                ]
+              },
+              { "syllables": [{ "end": 75560, "text": "a", "start": 75510 }] },
+              {
+                "syllables": [
+                  { "end": 75753, "text": "n", "start": 75696 },
+                  { "end": 75800, "text": "e", "start": 75753 },
+                  { "end": 75847, "text": "e", "start": 75800 },
+                  { "end": 75906, "text": "d", "start": 75853 },
+                  { "end": 75979, "text": "l", "start": 75916 },
+                  { "end": 76524, "text": "e", "start": 76220 }
+                ]
+              }
+            ]
+          },
+          {
+            "words": [
+              {
+                "syllables": [
+                  { "end": 76726, "text": "i", "start": 76660 },
+                  { "end": 76792, "text": "n", "start": 76726 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 76983, "text": "y", "start": 76860 },
+                  { "end": 77106, "text": "o", "start": 76983 },
+                  { "end": 77229, "text": "u", "start": 77106 },
+                  { "end": 77276, "text": "r", "start": 77230 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 77410, "text": "a", "start": 77320 },
+                  { "end": 77683, "text": "r", "start": 77503 },
+                  { "end": 77863, "text": "m", "start": 77683 }
+                ]
+              }
+            ]
+          },
+          {
+            "words": [
+              {
+                "syllables": [
+                  { "end": 78813, "text": "Y", "start": 78740 },
+                  { "end": 78886, "text": "o", "start": 78813 },
+                  { "end": 78926, "text": "u", "start": 78893 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 79027, "text": "b", "start": 78960 },
+                  { "end": 79050, "text": "i", "start": 79033 },
+                  { "end": 79067, "text": "t", "start": 79050 },
+                  { "end": 79133, "text": "e", "start": 79106 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 79206, "text": "t", "start": 79160 },
+                  { "end": 79252, "text": "h", "start": 79206 },
+                  { "end": 79346, "text": "e", "start": 79300 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 79480, "text": "d", "start": 79390 },
+                  { "end": 79760, "text": "u", "start": 79576 },
+                  { "end": 79943, "text": "s", "start": 79760 },
+                  { "end": 80126, "text": "t", "start": 79943 }
+                ]
+              }
+            ]
+          },
+          {
+            "words": [
+              {
+                "syllables": [
+                  { "end": 80240, "text": "Y", "start": 80170 },
+                  { "end": 80300, "text": "o", "start": 80240 },
+                  { "end": 80330, "text": "u", "start": 80300 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 80420, "text": "b", "start": 80360 },
+                  { "end": 80630, "text": "u", "start": 80516 },
+                  { "end": 80730, "text": "y", "start": 80630 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 80876, "text": "t", "start": 80830 },
+                  { "end": 80922, "text": "h", "start": 80876 },
+                  { "end": 81003, "text": "e", "start": 80963 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 81117, "text": "f", "start": 81040 },
+                  { "end": 81352, "text": "a", "start": 81196 },
+                  { "end": 81710, "text": "r", "start": 81490 },
+                  { "end": 81930, "text": "m", "start": 81710 }
+                ]
+              }
+            ]
+          },
+          {
+            "words": [
+              {
+                "syllables": [
+                  { "end": 82450, "text": "H", "start": 82210 },
+                  { "end": 82633, "text": "e", "start": 82450 },
+                  { "end": 82783, "text": "y", "start": 82633 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 83076, "text": "h", "start": 82930 },
+                  { "end": 83186, "text": "e", "start": 83076 },
+                  { "end": 83273, "text": "y", "start": 83186 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 83520, "text": "h", "start": 83360 },
+                  { "end": 83643, "text": "e", "start": 83520 },
+                  { "end": 83743, "text": "y", "start": 83643 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 84037, "text": "h", "start": 83840 },
+                  { "end": 84286, "text": "e", "start": 84093 },
+                  { "end": 84479, "text": "y", "start": 84286 }
+                ]
+              }
+            ]
+          },
+          {
+            "words": [
+              {
+                "syllables": [
+                  { "end": 85620, "text": "H", "start": 85470 },
+                  { "end": 85733, "text": "e", "start": 85620 },
+                  { "end": 85826, "text": "y", "start": 85733 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 85990, "text": "s", "start": 85920 },
+                  { "end": 86060, "text": "t", "start": 85990 },
+                  { "end": 86130, "text": "u", "start": 86060 },
+                  { "end": 86220, "text": "p", "start": 86140 },
+                  { "end": 86460, "text": "i", "start": 86396 },
+                  { "end": 86524, "text": "d", "start": 86460 }
+                ]
+              }
+            ]
+          },
+          {
+            "words": [
+              {
+                "syllables": [
+                  { "end": 87356, "text": "W", "start": 87260 },
+                  { "end": 87416, "text": "h", "start": 87356 },
+                  { "end": 87456, "text": "a", "start": 87416 },
+                  { "end": 87473, "text": "t", "start": 87456 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 87524, "text": "y", "start": 87490 },
+                  { "end": 87676, "text": "a", "start": 87620 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 87806, "text": "t", "start": 87730 },
+                  { "end": 87882, "text": "ry", "start": 87806 },
+                  { "end": 88096, "text": "i", "start": 88070 },
+                  { "end": 88122, "text": "n", "start": 88096 },
+                  { "end": 88223, "text": "'", "start": 88193 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 88307, "text": "t", "start": 88250 },
+                  { "end": 88416, "text": "o", "start": 88353 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 88607, "text": "d", "start": 88480 },
+                  { "end": 89100, "text": "o", "start": 88790 }
+                ]
+              }
+            ]
+          },
+          {
+            "words": [
+              {
+                "syllables": [
+                  { "end": 89826, "text": "H", "start": 89580 },
+                  { "end": 90010, "text": "e", "start": 89826 },
+                  { "end": 90160, "text": "y", "start": 90010 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 90456, "text": "h", "start": 90310 },
+                  { "end": 90570, "text": "e", "start": 90456 },
+                  { "end": 90660, "text": "y", "start": 90570 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 90910, "text": "h", "start": 90750 },
+                  { "end": 91030, "text": "e", "start": 90910 },
+                  { "end": 91126, "text": "y", "start": 91030 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 91410, "text": "h", "start": 91220 },
+                  { "end": 91643, "text": "e", "start": 91460 },
+                  { "end": 91826, "text": "y", "start": 91643 }
+                ]
+              }
+            ]
+          },
+          {
+            "words": [
+              {
+                "syllables": [
+                  { "end": 93030, "text": "H", "start": 92880 },
+                  { "end": 93143, "text": "e", "start": 93030 },
+                  { "end": 93236, "text": "y", "start": 93143 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 93393, "text": "s", "start": 93330 },
+                  { "end": 93456, "text": "t", "start": 93393 },
+                  { "end": 93527, "text": "u", "start": 93460 },
+                  { "end": 93620, "text": "p", "start": 93540 },
+                  { "end": 93890, "text": "i", "start": 93820 },
+                  { "end": 93960, "text": "d", "start": 93890 }
+                ]
+              }
+            ]
+          },
+          {
+            "words": [
+              {
+                "syllables": [
+                  { "end": 94830, "text": "T", "start": 94710 },
+                  { "end": 94943, "text": "h", "start": 94830 },
+                  { "end": 95050, "text": "e", "start": 94943 },
+                  { "end": 95106, "text": "y", "start": 95050 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 95270, "text": "w", "start": 95160 },
+                  { "end": 95446, "text": "i", "start": 95360 },
+                  { "end": 95530, "text": "n", "start": 95446 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 95696, "text": "y", "start": 95610 },
+                  { "end": 95776, "text": "o", "start": 95696 },
+                  { "end": 95820, "text": "u", "start": 95776 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 95944, "text": "l", "start": 95860 },
+                  { "end": 96132, "text": "o", "start": 95996 },
+                  { "end": 96450, "text": "s", "start": 96256 },
+                  { "end": 96644, "text": "e", "start": 96450 }
+                ]
+              }
+            ]
+          },
+          {
+            "words": [
+              {
+                "syllables": [
+                  { "end": 97236, "text": "H", "start": 97010 },
+                  { "end": 97410, "text": "e", "start": 97236 },
+                  { "end": 97550, "text": "y", "start": 97410 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 97850, "text": "h", "start": 97690 },
+                  { "end": 97970, "text": "e", "start": 97850 },
+                  { "end": 98066, "text": "y", "start": 97970 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 98313, "text": "h", "start": 98160 },
+                  { "end": 98426, "text": "e", "start": 98313 },
+                  { "end": 98520, "text": "y", "start": 98426 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 98794, "text": "h", "start": 98610 },
+                  { "end": 99053, "text": "e", "start": 98863 },
+                  { "end": 99243, "text": "y", "start": 99053 }
+                ]
+              }
+            ]
+          },
+          {
+            "words": [
+              {
+                "syllables": [
+                  { "end": 100367, "text": "H", "start": 100210 },
+                  { "end": 100487, "text": "e", "start": 100367 },
+                  { "end": 100583, "text": "y", "start": 100487 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 100743, "text": "s", "start": 100680 },
+                  { "end": 100806, "text": "t", "start": 100743 },
+                  { "end": 100877, "text": "u", "start": 100810 },
+                  { "end": 100970, "text": "p", "start": 100890 },
+                  { "end": 101190, "text": "i", "start": 101130 },
+                  { "end": 101250, "text": "d", "start": 101190 }
+                ]
+              }
+            ]
+          },
+          {
+            "words": [
+              {
+                "syllables": [
+                  { "end": 104777, "text": "C", "start": 104650 },
+                  { "end": 104840, "text": "'", "start": 104777 },
+                  { "end": 104903, "text": "m", "start": 104840 },
+                  { "end": 105207, "text": "o", "start": 105060 },
+                  { "end": 105273, "text": "n", "start": 105207 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 105473, "text": "g", "start": 105340 },
+                  { "end": 105640, "text": "i", "start": 105540 },
+                  { "end": 105740, "text": "r", "start": 105640 },
+                  { "end": 105797, "text": "l", "start": 105773 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 105850, "text": "i", "start": 105820 },
+                  { "end": 105880, "text": "t", "start": 105850 },
+                  { "end": 105950, "text": "'", "start": 105923 },
+                  { "end": 105977, "text": "s", "start": 105950 }
+                ]
+              },
+              {
+                "syllables": [{ "end": 106130, "text": "a", "start": 106040 }]
+              },
+              {
+                "syllables": [
+                  { "end": 106320, "text": "b", "start": 106240 },
+                  { "end": 106373, "text": "e", "start": 106320 },
+                  { "end": 106426, "text": "tt", "start": 106373 },
+                  { "end": 106757, "text": "e", "start": 106593 },
+                  { "end": 106840, "text": "r", "start": 106757 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 107083, "text": "d", "start": 106920 },
+                  { "end": 107380, "text": "a", "start": 107187 },
+                  { "end": 107573, "text": "y", "start": 107380 }
+                ]
+              }
+            ]
+          },
+          {
+            "words": [
+              {
+                "syllables": [
+                  { "end": 108603, "text": "G", "start": 108470 },
+                  { "end": 108683, "text": "e", "start": 108603 },
+                  { "end": 108723, "text": "t", "start": 108683 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 108837, "text": "y", "start": 108760 },
+                  { "end": 108917, "text": "o", "start": 108840 },
+                  { "end": 108987, "text": "u", "start": 108917 },
+                  { "end": 109010, "text": "r", "start": 108987 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 109073, "text": "f", "start": 109030 },
+                  { "end": 109176, "text": "o", "start": 109103 },
+                  { "end": 109403, "text": "o", "start": 109253 },
+                  { "end": 109443, "text": "t", "start": 109403 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 109557, "text": "o", "start": 109480 },
+                  { "end": 109823, "text": "u", "start": 109677 },
+                  { "end": 109897, "text": "t", "start": 109823 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 110087, "text": "o", "start": 109970 },
+                  { "end": 110130, "text": "f", "start": 110087 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 110250, "text": "t", "start": 110170 },
+                  { "end": 110330, "text": "h", "start": 110250 },
+                  { "end": 110530, "text": "a", "start": 110410 },
+                  { "end": 110590, "text": "t", "start": 110530 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 110770, "text": "g", "start": 110650 },
+                  { "end": 110933, "text": "r", "start": 110813 },
+                  { "end": 111053, "text": "a", "start": 110933 },
+                  { "end": 111223, "text": "v", "start": 111100 },
+                  { "end": 111346, "text": "e", "start": 111223 }
+                ]
+              }
+            ]
+          },
+          {
+            "words": [
+              {
+                "syllables": [
+                  { "end": 112103, "text": "D", "start": 112050 },
+                  { "end": 112156, "text": "o", "start": 112103 },
+                  { "end": 112210, "text": "n", "start": 112160 },
+                  { "end": 112230, "text": "'", "start": 112210 },
+                  { "end": 112247, "text": "t", "start": 112230 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 112287, "text": "l", "start": 112260 },
+                  { "end": 112314, "text": "e", "start": 112287 },
+                  { "end": 112423, "text": "t", "start": 112393 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 112507, "text": "t", "start": 112450 },
+                  { "end": 112570, "text": "h", "start": 112510 },
+                  { "end": 112660, "text": "a", "start": 112593 },
+                  { "end": 112690, "text": "t", "start": 112660 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 112780, "text": "o", "start": 112720 },
+                  { "end": 113013, "text": "n", "start": 112867 },
+                  { "end": 113083, "text": "e", "start": 113013 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 113223, "text": "l", "start": 113150 },
+                  { "end": 113296, "text": "o", "start": 113223 },
+                  { "end": 113510, "text": "v", "start": 113370 },
+                  { "end": 113620, "text": "e", "start": 113510 }
+                ]
+              }
+            ]
+          },
+          {
+            "words": [
+              {
+                "syllables": [
+                  { "end": 113723, "text": "t", "start": 113620 },
+                  { "end": 113823, "text": "e", "start": 113723 },
+                  { "end": 113923, "text": "a", "start": 113823 },
+                  { "end": 114003, "text": "r", "start": 113957 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 114143, "text": "y", "start": 114050 },
+                  { "end": 114327, "text": "o", "start": 114193 },
+                  { "end": 114460, "text": "u", "start": 114327 },
+                  { "end": 114510, "text": "r", "start": 114460 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 114660, "text": "w", "start": 114560 },
+                  { "end": 114803, "text": "o", "start": 114693 },
+                  { "end": 114883, "text": "r", "start": 114803 },
+                  { "end": 114943, "text": "l", "start": 114883 },
+                  { "end": 115003, "text": "d", "start": 114943 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 115177, "text": "a", "start": 115060 },
+                  { "end": 115460, "text": "p", "start": 115260 },
+                  { "end": 116417, "text": "a", "start": 115840 },
+                  { "end": 116994, "text": "rt", "start": 116417 }
+                ]
+              }
+            ]
+          },
+          {
+            "words": [
+              {
+                "syllables": [
+                  { "end": 119600, "text": "C", "start": 119470 },
+                  { "end": 119630, "text": "'", "start": 119600 },
+                  { "end": 119660, "text": "m", "start": 119630 },
+                  { "end": 119960, "text": "o", "start": 119830 },
+                  { "end": 120020, "text": "n", "start": 119960 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 120200, "text": "b", "start": 120080 },
+                  { "end": 120387, "text": "a", "start": 120257 },
+                  { "end": 120517, "text": "b", "start": 120387 },
+                  { "end": 120747, "text": "e", "start": 120567 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 121077, "text": "k", "start": 121030 },
+                  { "end": 121113, "text": "i", "start": 121077 },
+                  { "end": 121149, "text": "c", "start": 121113 },
+                  { "end": 121197, "text": "k", "start": 121173 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 121267, "text": "t", "start": 121220 },
+                  { "end": 121394, "text": "h", "start": 121307 },
+                  { "end": 121587, "text": "a", "start": 121473 },
+                  { "end": 121643, "text": "t", "start": 121587 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 121813, "text": "s", "start": 121700 },
+                  { "end": 121947, "text": "t", "start": 121860 },
+                  { "end": 122034, "text": "u", "start": 121947 },
+                  { "end": 122267, "text": "ff", "start": 122107 }
+                ]
+              }
+            ]
+          },
+          {
+            "words": [
+              {
+                "syllables": [
+                  { "end": 123237, "text": "S", "start": 123130 },
+                  { "end": 123343, "text": "h", "start": 123237 },
+                  { "end": 123449, "text": "o", "start": 123343 },
+                  { "end": 123507, "text": "w", "start": 123450 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 123637, "text": "t", "start": 123560 },
+                  { "end": 123714, "text": "h", "start": 123637 },
+                  { "end": 123777, "text": "e", "start": 123740 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 123880, "text": "s", "start": 123810 },
+                  { "end": 123976, "text": "t", "start": 123893 },
+                  { "end": 124037, "text": "r", "start": 123980 },
+                  { "end": 124094, "text": "e", "start": 124037 },
+                  { "end": 124230, "text": "e", "start": 124147 },
+                  { "end": 124270, "text": "t", "start": 124230 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 124390, "text": "i", "start": 124310 },
+                  { "end": 124530, "text": "t", "start": 124457 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 124680, "text": "a", "start": 124600 },
+                  { "end": 124737, "text": "i", "start": 124680 },
+                  { "end": 124794, "text": "n", "start": 124737 },
+                  { "end": 124870, "text": "'", "start": 124847 },
+                  { "end": 124893, "text": "t", "start": 124870 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 125030, "text": "s", "start": 124950 },
+                  { "end": 125310, "text": "o", "start": 125190 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 125557, "text": "t", "start": 125430 },
+                  { "end": 125684, "text": "o", "start": 125557 },
+                  { "end": 125897, "text": "u", "start": 125727 },
+                  { "end": 126067, "text": "g", "start": 125897 },
+                  { "end": 126243, "text": "h", "start": 126070 }
+                ]
+              }
+            ]
+          },
+          {
+            "words": [
+              {
+                "syllables": [
+                  { "end": 127047, "text": "Q", "start": 126980 },
+                  { "end": 127090, "text": "u", "start": 127047 },
+                  { "end": 127100, "text": "i", "start": 127090 },
+                  { "end": 127110, "text": "t", "start": 127100 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 127157, "text": "l", "start": 127130 },
+                  { "end": 127184, "text": "y", "start": 127157 },
+                  { "end": 127340, "text": "i", "start": 127280 },
+                  { "end": 127400, "text": "n", "start": 127340 },
+                  { "end": 127487, "text": "'", "start": 127460 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 127550, "text": "'", "start": 127510 },
+                  { "end": 127590, "text": "r", "start": 127550 },
+                  { "end": 127684, "text": "o", "start": 127617 },
+                  { "end": 127800, "text": "u", "start": 127710 },
+                  { "end": 127890, "text": "n", "start": 127800 },
+                  { "end": 127930, "text": "d", "start": 127890 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 128050, "text": "w", "start": 127970 },
+                  { "end": 128092, "text": "i", "start": 128056 },
+                  { "end": 128128, "text": "t", "start": 128092 },
+                  { "end": 128167, "text": "h", "start": 128130 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 128268, "text": "t", "start": 128199 },
+                  { "end": 128353, "text": "h", "start": 128276 },
+                  { "end": 128460, "text": "e", "start": 128380 }
+                ]
+              }
+            ]
+          },
+          {
+            "words": [
+              {
+                "syllables": [
+                  { "end": 128513, "text": "c", "start": 128460 },
+                  { "end": 128566, "text": "r", "start": 128513 },
+                  { "end": 128613, "text": "i", "start": 128570 },
+                  { "end": 128656, "text": "p", "start": 128613 },
+                  { "end": 128767, "text": "p", "start": 128690 },
+                  { "end": 128853, "text": "l", "start": 128820 },
+                  { "end": 128886, "text": "e", "start": 128853 },
+                  { "end": 129047, "text": "d", "start": 128979 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 129241, "text": "b", "start": 129110 },
+                  { "end": 129550, "text": "r", "start": 129366 },
+                  { "end": 129663, "text": "o", "start": 129550 },
+                  { "end": 129776, "text": "k", "start": 129663 },
+                  { "end": 129896, "text": "e", "start": 129782 },
+                  { "end": 129953, "text": "n", "start": 129896 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 130122, "text": "h", "start": 130009 },
+                  { "end": 130789, "text": "e", "start": 130402 },
+                  { "end": 131176, "text": "a", "start": 130789 },
+                  { "end": 131565, "text": "rt", "start": 131177 },
+                  { "end": 131957, "text": "s", "start": 131567 }
+                ]
+              }
+            ]
+          },
+          {
+            "words": [
+              {
+                "syllables": [
+                  { "end": 133813, "text": "N", "start": 133760 },
+                  { "end": 133866, "text": "o", "start": 133813 },
+                  { "end": 133900, "text": "w", "start": 133867 }
+                ]
+              },
+              {
+                "syllables": [{ "end": 133993, "text": "I", "start": 133930 }]
+              },
+              {
+                "syllables": [
+                  { "end": 134547, "text": "k", "start": 134440 },
+                  { "end": 134650, "text": "n", "start": 134547 },
+                  { "end": 134730, "text": "o", "start": 134650 },
+                  { "end": 134810, "text": "w", "start": 134730 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 134983, "text": "y", "start": 134890 },
+                  { "end": 135076, "text": "o", "start": 134983 },
+                  { "end": 135177, "text": "u", "start": 135080 },
+                  { "end": 135217, "text": "'", "start": 135177 },
+                  { "end": 135257, "text": "v", "start": 135217 },
+                  { "end": 135333, "text": "e", "start": 135287 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 135473, "text": "b", "start": 135380 },
+                  { "end": 135610, "text": "e", "start": 135510 },
+                  { "end": 135710, "text": "e", "start": 135610 },
+                  { "end": 135870, "text": "n", "start": 135740 }
+                ]
+              }
+            ]
+          },
+          {
+            "words": [
+              {
+                "syllables": [
+                  { "end": 135923, "text": "s", "start": 135870 },
+                  { "end": 135976, "text": "e", "start": 135923 },
+                  { "end": 136070, "text": "e", "start": 135997 },
+                  { "end": 136140, "text": "i", "start": 136070 },
+                  { "end": 136210, "text": "n", "start": 136140 },
+                  { "end": 136483, "text": "'", "start": 136417 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 136683, "text": "r", "start": 136550 },
+                  { "end": 136856, "text": "e", "start": 136703 },
+                  { "end": 137331, "text": "d", "start": 137017 }
+                ]
+              }
+            ]
+          },
+          {
+            "words": [
+              {
+                "syllables": [
+                  { "end": 137993, "text": "D", "start": 137940 },
+                  { "end": 138033, "text": "o", "start": 137993 },
+                  { "end": 138073, "text": "n", "start": 138033 },
+                  { "end": 138100, "text": "'", "start": 138073 },
+                  { "end": 138117, "text": "t", "start": 138100 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 138160, "text": "p", "start": 138130 },
+                  { "end": 138273, "text": "u", "start": 138213 },
+                  { "end": 138303, "text": "t", "start": 138273 }
+                ]
+              },
+              {
+                "syllables": [{ "end": 138387, "text": "a", "start": 138330 }]
+              },
+              {
+                "syllables": [
+                  { "end": 138727, "text": "p", "start": 138550 },
+                  { "end": 138773, "text": "i", "start": 138727 },
+                  { "end": 138819, "text": "s", "start": 138773 },
+                  { "end": 139080, "text": "t", "start": 138940 },
+                  { "end": 139220, "text": "o", "start": 139080 },
+                  { "end": 139420, "text": "l", "start": 139347 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 139580, "text": "t", "start": 139490 },
+                  { "end": 139667, "text": "o", "start": 139580 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 139880, "text": "y", "start": 139750 },
+                  { "end": 140000, "text": "o", "start": 139880 },
+                  { "end": 140120, "text": "u", "start": 140000 },
+                  { "end": 140160, "text": "r", "start": 140120 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 140280, "text": "h", "start": 140200 },
+                  { "end": 140553, "text": "e", "start": 140380 },
+                  { "end": 140683, "text": "a", "start": 140553 },
+                  { "end": 140813, "text": "d", "start": 140683 }
+                ]
+              }
+            ]
+          },
+          {
+            "words": [
+              {
+                "syllables": [
+                  { "end": 141343, "text": "S", "start": 141210 },
+                  { "end": 141473, "text": "o", "start": 141343 },
+                  { "end": 141603, "text": "m", "start": 141473 },
+                  { "end": 141810, "text": "e", "start": 141673 },
+                  { "end": 141850, "text": "t", "start": 141810 },
+                  { "end": 141863, "text": "i", "start": 141850 },
+                  { "end": 141876, "text": "m", "start": 141863 },
+                  { "end": 142007, "text": "e", "start": 141950 },
+                  { "end": 142030, "text": "s", "start": 142007 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 142093, "text": "y", "start": 142050 },
+                  { "end": 142153, "text": "o", "start": 142103 },
+                  { "end": 142203, "text": "u", "start": 142153 },
+                  { "end": 142223, "text": "r", "start": 142203 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 142277, "text": "a", "start": 142240 },
+                  { "end": 142490, "text": "n", "start": 142367 },
+                  { "end": 142593, "text": "s", "start": 142490 },
+                  { "end": 142696, "text": "w", "start": 142593 },
+                  { "end": 142903, "text": "e", "start": 142767 },
+                  { "end": 143003, "text": "r", "start": 142903 },
+                  { "end": 143033, "text": "'", "start": 143003 },
+                  { "end": 143063, "text": "s", "start": 143033 }
+                ]
+              }
+            ]
+          },
+          {
+            "words": [
+              {
+                "syllables": [
+                  { "end": 143250, "text": "h", "start": 143170 },
+                  { "end": 143330, "text": "e", "start": 143250 },
+                  { "end": 143410, "text": "a", "start": 143330 },
+                  { "end": 143490, "text": "v", "start": 143410 },
+                  { "end": 143716, "text": "e", "start": 143563 },
+                  { "end": 143803, "text": "n", "start": 143723 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 144037, "text": "s", "start": 143880 },
+                  { "end": 144293, "text": "e", "start": 144087 },
+                  { "end": 144443, "text": "n", "start": 144293 },
+                  { "end": 144593, "text": "t", "start": 144443 }
+                ]
+              }
+            ]
+          },
+          {
+            "words": [
+              {
+                "syllables": [
+                  { "end": 145377, "text": "Y", "start": 145300 },
+                  { "end": 145430, "text": "o", "start": 145377 },
+                  { "end": 145483, "text": "u", "start": 145430 },
+                  { "end": 145510, "text": "r", "start": 145487 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 145573, "text": "w", "start": 145530 },
+                  { "end": 145650, "text": "a", "start": 145603 },
+                  { "end": 145690, "text": "y", "start": 145650 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 145810, "text": "i", "start": 145730 },
+                  { "end": 145880, "text": "s", "start": 145817 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 146063, "text": "s", "start": 145940 },
+                  { "end": 146130, "text": "o", "start": 146067 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 146313, "text": "*", "start": 146190 },
+                  { "end": 146490, "text": "*", "start": 146340 },
+                  { "end": 146713, "text": "*", "start": 146563 },
+                  { "end": 146827, "text": "*", "start": 146713 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 147027, "text": "p", "start": 146940 },
+                  { "end": 147107, "text": "e", "start": 147027 },
+                  { "end": 147160, "text": "r", "start": 147107 },
+                  { "end": 147213, "text": "m", "start": 147160 },
+                  { "end": 147460, "text": "a", "start": 147327 },
+                  { "end": 147580, "text": "n", "start": 147460 },
+                  { "end": 147700, "text": "e", "start": 147580 },
+                  { "end": 148193, "text": "n", "start": 147930 },
+                  { "end": 148456, "text": "t", "start": 148193 }
+                ]
+              }
+            ]
+          },
+          {
+            "words": [
+              {
+                "syllables": [
+                  { "end": 149003, "text": "H", "start": 148770 },
+                  { "end": 149177, "text": "e", "start": 149003 },
+                  { "end": 149320, "text": "y", "start": 149177 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 149620, "text": "h", "start": 149460 },
+                  { "end": 149740, "text": "e", "start": 149620 },
+                  { "end": 149837, "text": "y", "start": 149740 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 150090, "text": "h", "start": 149930 },
+                  { "end": 150210, "text": "e", "start": 150090 },
+                  { "end": 150307, "text": "y", "start": 150210 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 150590, "text": "h", "start": 150400 },
+                  { "end": 150830, "text": "e", "start": 150647 },
+                  { "end": 151013, "text": "y", "start": 150830 }
+                ]
+              }
+            ]
+          },
+          {
+            "words": [
+              {
+                "syllables": [
+                  { "end": 152200, "text": "H", "start": 152050 },
+                  { "end": 152313, "text": "e", "start": 152200 },
+                  { "end": 152407, "text": "y", "start": 152313 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 152570, "text": "s", "start": 152500 },
+                  { "end": 152640, "text": "t", "start": 152570 },
+                  { "end": 152710, "text": "u", "start": 152640 },
+                  { "end": 152800, "text": "p", "start": 152720 },
+                  { "end": 153103, "text": "i", "start": 153027 },
+                  { "end": 153179, "text": "d", "start": 153103 }
+                ]
+              }
+            ]
+          },
+          {
+            "words": [
+              {
+                "syllables": [
+                  { "end": 153987, "text": "W", "start": 153910 },
+                  { "end": 154033, "text": "h", "start": 153987 },
+                  { "end": 154063, "text": "a", "start": 154033 },
+                  { "end": 154083, "text": "t", "start": 154063 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 154137, "text": "y", "start": 154100 },
+                  { "end": 154277, "text": "a", "start": 154220 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 154387, "text": "t", "start": 154330 },
+                  { "end": 154444, "text": "ry", "start": 154387 },
+                  { "end": 154623, "text": "i", "start": 154570 },
+                  { "end": 154676, "text": "n", "start": 154623 },
+                  { "end": 154930, "text": "'", "start": 154823 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 155003, "text": "t", "start": 154967 },
+                  { "end": 155039, "text": "o", "start": 155003 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 155363, "text": "d", "start": 155233 },
+                  { "end": 155493, "text": "o", "start": 155363 }
+                ]
+              }
+            ]
+          },
+          {
+            "words": [
+              {
+                "syllables": [
+                  { "end": 156427, "text": "H", "start": 156200 },
+                  { "end": 156597, "text": "e", "start": 156427 },
+                  { "end": 156733, "text": "y", "start": 156597 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 157043, "text": "h", "start": 156870 },
+                  { "end": 157173, "text": "e", "start": 157043 },
+                  { "end": 157273, "text": "y", "start": 157173 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 157517, "text": "h", "start": 157370 },
+                  { "end": 157627, "text": "e", "start": 157517 },
+                  { "end": 157710, "text": "y", "start": 157627 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 157953, "text": "h", "start": 157790 },
+                  { "end": 158220, "text": "e", "start": 158037 },
+                  { "end": 158403, "text": "y", "start": 158220 }
+                ]
+              }
+            ]
+          },
+          {
+            "words": [
+              {
+                "syllables": [
+                  { "end": 159577, "text": "H", "start": 159420 },
+                  { "end": 159697, "text": "e", "start": 159577 },
+                  { "end": 159793, "text": "y", "start": 159697 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 159960, "text": "s", "start": 159890 },
+                  { "end": 160030, "text": "t", "start": 159960 },
+                  { "end": 160100, "text": "u", "start": 160030 },
+                  { "end": 160210, "text": "p", "start": 160120 },
+                  { "end": 160457, "text": "i", "start": 160390 },
+                  { "end": 160524, "text": "d", "start": 160457 }
+                ]
+              }
+            ]
+          },
+          {
+            "words": [
+              {
+                "syllables": [
+                  { "end": 161410, "text": "T", "start": 161290 },
+                  { "end": 161523, "text": "h", "start": 161410 },
+                  { "end": 161630, "text": "e", "start": 161523 },
+                  { "end": 161687, "text": "y", "start": 161630 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 161850, "text": "w", "start": 161740 },
+                  { "end": 162010, "text": "i", "start": 161927 },
+                  { "end": 162087, "text": "n", "start": 162010 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 162247, "text": "y", "start": 162160 },
+                  { "end": 162327, "text": "o", "start": 162247 },
+                  { "end": 162363, "text": "u", "start": 162327 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 162473, "text": "l", "start": 162400 },
+                  { "end": 162666, "text": "o", "start": 162533 },
+                  { "end": 162977, "text": "s", "start": 162787 },
+                  { "end": 163167, "text": "e", "start": 162977 }
+                ]
+              }
+            ]
+          },
+          {
+            "words": [
+              {
+                "syllables": [
+                  { "end": 163817, "text": "H", "start": 163590 },
+                  { "end": 163990, "text": "e", "start": 163817 },
+                  { "end": 164130, "text": "y", "start": 163990 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 164423, "text": "h", "start": 164270 },
+                  { "end": 164537, "text": "e", "start": 164423 },
+                  { "end": 164630, "text": "y", "start": 164537 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 164880, "text": "h", "start": 164720 },
+                  { "end": 165000, "text": "e", "start": 164880 },
+                  { "end": 165090, "text": "y", "start": 165000 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 165360, "text": "h", "start": 165180 },
+                  { "end": 165627, "text": "e", "start": 165433 },
+                  { "end": 165821, "text": "y", "start": 165627 }
+                ]
+              }
+            ]
+          },
+          {
+            "words": [
+              {
+                "syllables": [
+                  { "end": 166957, "text": "H", "start": 166800 },
+                  { "end": 167080, "text": "e", "start": 166957 },
+                  { "end": 167180, "text": "y", "start": 167080 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 167353, "text": "s", "start": 167280 },
+                  { "end": 167426, "text": "t", "start": 167353 },
+                  { "end": 167501, "text": "u", "start": 167427 },
+                  { "end": 167613, "text": "p", "start": 167520 },
+                  { "end": 167987, "text": "i", "start": 167893 },
+                  { "end": 168081, "text": "d", "start": 167987 }
+                ]
+              }
+            ]
+          },
+          {
+            "words": [
+              {
+                "syllables": [
+                  { "end": 186417, "text": "T", "start": 186260 },
+                  { "end": 186550, "text": "h", "start": 186417 },
+                  { "end": 186583, "text": "i", "start": 186550 },
+                  { "end": 186616, "text": "s", "start": 186583 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 186813, "text": "a", "start": 186720 },
+                  { "end": 186877, "text": "i", "start": 186813 },
+                  { "end": 186941, "text": "n", "start": 186877 },
+                  { "end": 187033, "text": "'", "start": 187003 },
+                  { "end": 187063, "text": "t", "start": 187033 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 187207, "text": "y", "start": 187120 },
+                  { "end": 187386, "text": "o", "start": 187253 },
+                  { "end": 187520, "text": "u", "start": 187387 },
+                  { "end": 187570, "text": "r", "start": 187520 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 187720, "text": "d", "start": 187620 },
+                  { "end": 187860, "text": "a", "start": 187740 },
+                  { "end": 187986, "text": "d", "start": 187863 },
+                  { "end": 188117, "text": "d", "start": 187990 },
+                  { "end": 188230, "text": "y", "start": 188150 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 188443, "text": "t", "start": 188310 },
+                  { "end": 188576, "text": "a", "start": 188443 },
+                  { "end": 188847, "text": "l", "start": 188713 },
+                  { "end": 188981, "text": "k", "start": 188847 },
+                  { "end": 189170, "text": "i", "start": 189050 },
+                  { "end": 189290, "text": "n", "start": 189170 },
+                  { "end": 189510, "text": "'", "start": 189413 }
+                ]
+              }
+            ]
+          },
+          {
+            "words": [
+              {
+                "syllables": [
+                  { "end": 189607, "text": "Y", "start": 189510 },
+                  { "end": 189976, "text": "o", "start": 189743 },
+                  { "end": 190103, "text": "u", "start": 189983 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 190380, "text": "k", "start": 190220 },
+                  { "end": 190540, "text": "n", "start": 190380 },
+                  { "end": 190800, "text": "o", "start": 190590 },
+                  { "end": 191016, "text": "w", "start": 190803 }
+                ]
+              }
+            ]
+          },
+          {
+            "words": [
+              {
+                "syllables": [{ "end": 191770, "text": "I", "start": 191330 }]
+              },
+              {
+                "syllables": [
+                  { "end": 192403, "text": "k", "start": 192210 },
+                  { "end": 192590, "text": "n", "start": 192403 },
+                  { "end": 192777, "text": "o", "start": 192590 },
+                  { "end": 192964, "text": "w", "start": 192777 }
+                ]
+              }
+            ]
+          },
+          {
+            "words": [
+              {
+                "syllables": [
+                  { "end": 193703, "text": "Y", "start": 193540 },
+                  { "end": 193840, "text": "o", "start": 193703 },
+                  { "end": 193973, "text": "u", "start": 193840 },
+                  { "end": 194023, "text": "r", "start": 193973 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 194167, "text": "s", "start": 194070 },
+                  { "end": 194290, "text": "t", "start": 194180 },
+                  { "end": 194400, "text": "o", "start": 194290 },
+                  { "end": 194564, "text": "ry", "start": 194427 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 195080, "text": "a", "start": 194970 },
+                  { "end": 195157, "text": "i", "start": 195080 },
+                  { "end": 195234, "text": "n", "start": 195157 },
+                  { "end": 195340, "text": "'", "start": 195307 },
+                  { "end": 195373, "text": "t", "start": 195340 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 195560, "text": "s", "start": 195450 },
+                  { "end": 195790, "text": "o", "start": 195677 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 195990, "text": "s", "start": 195900 },
+                  { "end": 196080, "text": "h", "start": 195990 },
+                  { "end": 196220, "text": "o", "start": 196107 },
+                  { "end": 196323, "text": "c", "start": 196220 },
+                  { "end": 196426, "text": "k", "start": 196323 },
+                  { "end": 196473, "text": "i", "start": 196430 },
+                  { "end": 196516, "text": "n", "start": 196473 },
+                  { "end": 196813, "text": "g", "start": 196643 }
+                ]
+              }
+            ]
+          },
+          {
+            "words": [
+              {
+                "syllables": [
+                  { "end": 197117, "text": "Y", "start": 196880 },
+                  { "end": 197480, "text": "o", "start": 197180 },
+                  { "end": 197633, "text": "u", "start": 197487 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 197910, "text": "k", "start": 197780 },
+                  { "end": 198040, "text": "n", "start": 197910 },
+                  { "end": 198247, "text": "o", "start": 198080 },
+                  { "end": 198414, "text": "w", "start": 198247 }
+                ]
+              }
+            ]
+          },
+          {
+            "words": [
+              {
+                "syllables": [{ "end": 199167, "text": "I", "start": 198730 }]
+              },
+              {
+                "syllables": [
+                  { "end": 199780, "text": "k", "start": 199600 },
+                  { "end": 199953, "text": "n", "start": 199780 },
+                  { "end": 200120, "text": "o", "start": 199953 },
+                  { "end": 200287, "text": "w", "start": 200120 }
+                ]
+              }
+            ]
+          },
+          {
+            "words": [
+              {
+                "syllables": [
+                  { "end": 200653, "text": "B", "start": 200600 },
+                  { "end": 200680, "text": "l", "start": 200653 },
+                  { "end": 200707, "text": "o", "start": 200680 },
+                  { "end": 200763, "text": "w", "start": 200733 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 200847, "text": "s", "start": 200790 },
+                  { "end": 200930, "text": "o", "start": 200860 },
+                  { "end": 201040, "text": "m", "start": 200950 },
+                  { "end": 201137, "text": "e", "start": 201090 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 201270, "text": "s", "start": 201180 },
+                  { "end": 201440, "text": "t", "start": 201353 },
+                  { "end": 201527, "text": "e", "start": 201440 },
+                  { "end": 201740, "text": "a", "start": 201613 },
+                  { "end": 201867, "text": "m", "start": 201740 }
+                ]
+              }
+            ]
+          },
+          {
+            "words": [
+              {
+                "syllables": [
+                  { "end": 204197, "text": "C", "start": 204030 },
+                  { "end": 204230, "text": "'", "start": 204197 },
+                  { "end": 204263, "text": "m", "start": 204230 },
+                  { "end": 204373, "text": "o", "start": 204317 },
+                  { "end": 204403, "text": "n", "start": 204373 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 204487, "text": "a", "start": 204430 },
+                  { "end": 204690, "text": "n", "start": 204560 },
+                  { "end": 204817, "text": "d", "start": 204730 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 205070, "text": "s", "start": 204900 },
+                  { "end": 205740, "text": "c", "start": 205380 },
+                  { "end": 206097, "text": "r", "start": 205740 },
+                  { "end": 206454, "text": "e", "start": 206097 },
+                  { "end": 206930, "text": "a", "start": 206577 },
+                  { "end": 207283, "text": "m", "start": 206930 }
+                ]
+              }
+            ]
+          },
+          {
+            "words": [
+              {
+                "syllables": [
+                  { "end": 208147, "text": "H", "start": 207920 },
+                  { "end": 208320, "text": "e", "start": 208147 },
+                  { "end": 208460, "text": "y", "start": 208320 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 208760, "text": "h", "start": 208600 },
+                  { "end": 208880, "text": "e", "start": 208760 },
+                  { "end": 208970, "text": "y", "start": 208880 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 209220, "text": "h", "start": 209060 },
+                  { "end": 209343, "text": "e", "start": 209220 },
+                  { "end": 209443, "text": "y", "start": 209343 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 209737, "text": "h", "start": 209540 },
+                  { "end": 209987, "text": "e", "start": 209793 },
+                  { "end": 210181, "text": "y", "start": 209987 }
+                ]
+              }
+            ]
+          },
+          {
+            "words": [
+              {
+                "syllables": [
+                  { "end": 211320, "text": "H", "start": 211150 },
+                  { "end": 211450, "text": "e", "start": 211320 },
+                  { "end": 211557, "text": "y", "start": 211450 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 211723, "text": "s", "start": 211660 },
+                  { "end": 211786, "text": "t", "start": 211723 },
+                  { "end": 211857, "text": "u", "start": 211790 },
+                  { "end": 211950, "text": "p", "start": 211870 },
+                  { "end": 212237, "text": "i", "start": 212163 },
+                  { "end": 212311, "text": "d", "start": 212237 }
+                ]
+              }
+            ]
+          },
+          {
+            "words": [
+              {
+                "syllables": [
+                  { "end": 213127, "text": "W", "start": 213050 },
+                  { "end": 213173, "text": "h", "start": 213127 },
+                  { "end": 213203, "text": "a", "start": 213173 },
+                  { "end": 213223, "text": "t", "start": 213203 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 213277, "text": "y", "start": 213240 },
+                  { "end": 213427, "text": "a", "start": 213370 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 213517, "text": "t", "start": 213480 },
+                  { "end": 213554, "text": "ry", "start": 213517 },
+                  { "end": 213690, "text": "i", "start": 213650 },
+                  { "end": 213730, "text": "n", "start": 213690 },
+                  { "end": 213910, "text": "'", "start": 213837 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 214013, "text": "t", "start": 213963 },
+                  { "end": 214063, "text": "o", "start": 214013 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 214537, "text": "d", "start": 214340 },
+                  { "end": 214734, "text": "o", "start": 214537 }
+                ]
+              }
+            ]
+          },
+          {
+            "words": [
+              {
+                "syllables": [
+                  { "end": 215523, "text": "H", "start": 215300 },
+                  { "end": 215683, "text": "e", "start": 215523 },
+                  { "end": 215823, "text": "y", "start": 215683 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 216113, "text": "h", "start": 215960 },
+                  { "end": 216223, "text": "e", "start": 216113 },
+                  { "end": 216317, "text": "y", "start": 216223 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 216577, "text": "h", "start": 216410 },
+                  { "end": 216697, "text": "e", "start": 216577 },
+                  { "end": 216800, "text": "y", "start": 216697 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 217103, "text": "h", "start": 216900 },
+                  { "end": 217377, "text": "e", "start": 217173 },
+                  { "end": 217581, "text": "y", "start": 217377 }
+                ]
+              }
+            ]
+          },
+          {
+            "words": [
+              {
+                "syllables": [
+                  { "end": 218653, "text": "H", "start": 218480 },
+                  { "end": 218787, "text": "e", "start": 218653 },
+                  { "end": 218893, "text": "y", "start": 218787 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 219070, "text": "s", "start": 219000 },
+                  { "end": 219140, "text": "t", "start": 219070 },
+                  { "end": 219210, "text": "u", "start": 219140 },
+                  { "end": 219320, "text": "p", "start": 219230 },
+                  { "end": 219577, "text": "i", "start": 219507 },
+                  { "end": 219647, "text": "d", "start": 219577 }
+                ]
+              }
+            ]
+          },
+          {
+            "words": [
+              {
+                "syllables": [
+                  { "end": 220520, "text": "T", "start": 220400 },
+                  { "end": 220640, "text": "h", "start": 220520 },
+                  { "end": 220766, "text": "e", "start": 220643 },
+                  { "end": 220830, "text": "y", "start": 220770 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 221010, "text": "w", "start": 220890 },
+                  { "end": 221177, "text": "i", "start": 221093 },
+                  { "end": 221260, "text": "n", "start": 221177 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 221417, "text": "y", "start": 221340 },
+                  { "end": 221494, "text": "o", "start": 221417 },
+                  { "end": 221530, "text": "u", "start": 221497 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 221623, "text": "l", "start": 221560 },
+                  { "end": 221820, "text": "o", "start": 221690 },
+                  { "end": 222143, "text": "s", "start": 221950 },
+                  { "end": 222336, "text": "e", "start": 222143 }
+                ]
+              }
+            ]
+          },
+          {
+            "words": [
+              {
+                "syllables": [
+                  { "end": 222953, "text": "H", "start": 222730 },
+                  { "end": 223113, "text": "e", "start": 222953 },
+                  { "end": 223253, "text": "y", "start": 223113 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 223557, "text": "h", "start": 223390 },
+                  { "end": 223677, "text": "e", "start": 223557 },
+                  { "end": 223773, "text": "y", "start": 223677 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 224023, "text": "h", "start": 223870 },
+                  { "end": 224137, "text": "e", "start": 224023 },
+                  { "end": 224233, "text": "y", "start": 224137 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 224523, "text": "h", "start": 224330 },
+                  { "end": 224780, "text": "e", "start": 224590 },
+                  { "end": 224970, "text": "y", "start": 224780 }
+                ]
+              }
+            ]
+          },
+          {
+            "words": [
+              {
+                "syllables": [
+                  { "end": 226663, "text": "H", "start": 226430 },
+                  { "end": 226837, "text": "e", "start": 226663 },
+                  { "end": 226980, "text": "y", "start": 226837 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 227273, "text": "h", "start": 227120 },
+                  { "end": 227387, "text": "e", "start": 227273 },
+                  { "end": 227480, "text": "y", "start": 227387 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 227730, "text": "h", "start": 227570 },
+                  { "end": 227853, "text": "e", "start": 227730 },
+                  { "end": 227953, "text": "y", "start": 227853 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 228247, "text": "h", "start": 228050 },
+                  { "end": 228450, "text": "e", "start": 228277 },
+                  { "end": 228623, "text": "y", "start": 228450 }
+                ]
+              }
+            ]
+          },
+          {
+            "words": [
+              {
+                "syllables": [
+                  { "end": 229837, "text": "H", "start": 229680 },
+                  { "end": 229957, "text": "e", "start": 229837 },
+                  { "end": 230050, "text": "y", "start": 229957 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 230210, "text": "s", "start": 230140 },
+                  { "end": 230280, "text": "t", "start": 230210 },
+                  { "end": 230350, "text": "u", "start": 230280 },
+                  { "end": 230460, "text": "p", "start": 230370 },
+                  { "end": 230720, "text": "i", "start": 230650 },
+                  { "end": 230790, "text": "d", "start": 230720 }
+                ]
+              }
+            ]
+          },
+          {
+            "words": [
+              {
+                "syllables": [
+                  { "end": 231630, "text": "W", "start": 231550 },
+                  { "end": 231680, "text": "h", "start": 231630 },
+                  { "end": 231713, "text": "a", "start": 231680 },
+                  { "end": 231733, "text": "t", "start": 231713 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 231787, "text": "y", "start": 231750 },
+                  { "end": 231950, "text": "a", "start": 231887 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 232060, "text": "t", "start": 232010 },
+                  { "end": 232110, "text": "ry", "start": 232060 },
+                  { "end": 232263, "text": "i", "start": 232230 },
+                  { "end": 232296, "text": "n", "start": 232263 },
+                  { "end": 232440, "text": "'", "start": 232380 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 232553, "text": "t", "start": 232497 },
+                  { "end": 232609, "text": "o", "start": 232553 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 233040, "text": "d", "start": 232867 },
+                  { "end": 233213, "text": "o", "start": 233040 }
+                ]
+              }
+            ]
+          },
+          {
+            "words": [
+              {
+                "syllables": [
+                  { "end": 234107, "text": "H", "start": 233870 },
+                  { "end": 234277, "text": "e", "start": 234107 },
+                  { "end": 234423, "text": "y", "start": 234277 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 234723, "text": "h", "start": 234570 },
+                  { "end": 234833, "text": "e", "start": 234723 },
+                  { "end": 234927, "text": "y", "start": 234833 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 235173, "text": "h", "start": 235020 },
+                  { "end": 235283, "text": "e", "start": 235173 },
+                  { "end": 235377, "text": "y", "start": 235283 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 235657, "text": "h", "start": 235470 },
+                  { "end": 235900, "text": "e", "start": 235717 },
+                  { "end": 236083, "text": "y", "start": 235900 }
+                ]
+              }
+            ]
+          },
+          {
+            "words": [
+              {
+                "syllables": [
+                  { "end": 237247, "text": "H", "start": 237100 },
+                  { "end": 237360, "text": "e", "start": 237247 },
+                  { "end": 237450, "text": "y", "start": 237360 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 237613, "text": "s", "start": 237540 },
+                  { "end": 237686, "text": "t", "start": 237613 },
+                  { "end": 237761, "text": "u", "start": 237687 },
+                  { "end": 237873, "text": "p", "start": 237780 },
+                  { "end": 238163, "text": "i", "start": 238087 },
+                  { "end": 238239, "text": "d", "start": 238163 }
+                ]
+              }
+            ]
+          },
+          {
+            "words": [
+              {
+                "syllables": [
+                  { "end": 239057, "text": "T", "start": 238940 },
+                  { "end": 239174, "text": "h", "start": 239057 },
+                  { "end": 239297, "text": "e", "start": 239177 },
+                  { "end": 239360, "text": "y", "start": 239300 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 239540, "text": "w", "start": 239420 },
+                  { "end": 239707, "text": "i", "start": 239623 },
+                  { "end": 239790, "text": "n", "start": 239707 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 239947, "text": "y", "start": 239870 },
+                  { "end": 240024, "text": "o", "start": 239947 },
+                  { "end": 240063, "text": "u", "start": 240027 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 240173, "text": "l", "start": 240100 },
+                  { "end": 240354, "text": "o", "start": 240227 },
+                  { "end": 240673, "text": "s", "start": 240483 },
+                  { "end": 240863, "text": "e", "start": 240673 }
+                ]
+              }
+            ]
+          },
+          {
+            "words": [
+              {
+                "syllables": [
+                  { "end": 241467, "text": "H", "start": 241240 },
+                  { "end": 241630, "text": "e", "start": 241467 },
+                  { "end": 241770, "text": "y", "start": 241630 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 242070, "text": "h", "start": 241910 },
+                  { "end": 242183, "text": "e", "start": 242070 },
+                  { "end": 242283, "text": "y", "start": 242183 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 242540, "text": "h", "start": 242380 },
+                  { "end": 242653, "text": "e", "start": 242540 },
+                  { "end": 242753, "text": "y", "start": 242653 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 243047, "text": "h", "start": 242850 },
+                  { "end": 243303, "text": "e", "start": 243110 },
+                  { "end": 243496, "text": "y", "start": 243303 }
+                ]
+              }
+            ]
+          },
+          {
+            "words": [
+              {
+                "syllables": [
+                  { "end": 245140, "text": "H", "start": 244900 },
+                  { "end": 245323, "text": "e", "start": 245140 },
+                  { "end": 245473, "text": "y", "start": 245323 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 245780, "text": "h", "start": 245620 },
+                  { "end": 245900, "text": "e", "start": 245780 },
+                  { "end": 245997, "text": "y", "start": 245900 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 246250, "text": "h", "start": 246090 },
+                  { "end": 246370, "text": "e", "start": 246250 },
+                  { "end": 246460, "text": "y", "start": 246370 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 246730, "text": "h", "start": 246550 },
+                  { "end": 246970, "text": "e", "start": 246790 },
+                  { "end": 247150, "text": "y", "start": 246970 }
+                ]
+              }
+            ]
+          },
+          {
+            "words": [
+              {
+                "syllables": [
+                  { "end": 248327, "text": "H", "start": 248170 },
+                  { "end": 248447, "text": "e", "start": 248327 },
+                  { "end": 248543, "text": "y", "start": 248447 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 248710, "text": "s", "start": 248640 },
+                  { "end": 248780, "text": "t", "start": 248710 },
+                  { "end": 248850, "text": "u", "start": 248780 },
+                  { "end": 248940, "text": "p", "start": 248860 },
+                  { "end": 249210, "text": "i", "start": 249140 },
+                  { "end": 249280, "text": "d", "start": 249210 }
+                ]
+              }
+            ]
+          },
+          {
+            "words": [
+              {
+                "syllables": [
+                  { "end": 250097, "text": "W", "start": 250000 },
+                  { "end": 250157, "text": "h", "start": 250097 },
+                  { "end": 250187, "text": "a", "start": 250157 },
+                  { "end": 250203, "text": "t", "start": 250187 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 250253, "text": "y", "start": 250220 },
+                  { "end": 250410, "text": "a", "start": 250350 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 250527, "text": "t", "start": 250470 },
+                  { "end": 250584, "text": "ry", "start": 250527 },
+                  { "end": 250743, "text": "i", "start": 250710 },
+                  { "end": 250776, "text": "n", "start": 250743 },
+                  { "end": 250920, "text": "'", "start": 250860 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 251023, "text": "t", "start": 250973 },
+                  { "end": 251073, "text": "o", "start": 251023 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 251503, "text": "d", "start": 251333 },
+                  { "end": 251673, "text": "o", "start": 251503 }
+                ]
+              }
+            ]
+          },
+          {
+            "words": [
+              {
+                "syllables": [
+                  { "end": 252547, "text": "H", "start": 252300 },
+                  { "end": 252730, "text": "e", "start": 252547 },
+                  { "end": 252880, "text": "y", "start": 252730 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 253177, "text": "h", "start": 253030 },
+                  { "end": 253287, "text": "e", "start": 253177 },
+                  { "end": 253373, "text": "y", "start": 253287 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 253620, "text": "h", "start": 253460 },
+                  { "end": 253743, "text": "e", "start": 253620 },
+                  { "end": 253843, "text": "y", "start": 253743 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 254137, "text": "h", "start": 253940 },
+                  { "end": 254337, "text": "e", "start": 254167 },
+                  { "end": 254507, "text": "y", "start": 254337 }
+                ]
+              }
+            ]
+          },
+          {
+            "words": [
+              {
+                "syllables": [
+                  { "end": 255727, "text": "H", "start": 255570 },
+                  { "end": 255850, "text": "e", "start": 255727 },
+                  { "end": 255950, "text": "y", "start": 255850 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 256120, "text": "s", "start": 256050 },
+                  { "end": 256190, "text": "t", "start": 256120 },
+                  { "end": 256260, "text": "u", "start": 256190 },
+                  { "end": 256368, "text": "p", "start": 256279 },
+                  { "end": 256647, "text": "i", "start": 256572 },
+                  { "end": 256722, "text": "d", "start": 256647 }
+                ]
+              }
+            ]
+          },
+          {
+            "words": [
+              {
+                "syllables": [
+                  { "end": 257572, "text": "T", "start": 257440 },
+                  { "end": 257700, "text": "h", "start": 257572 },
+                  { "end": 257813, "text": "e", "start": 257700 },
+                  { "end": 257873, "text": "y", "start": 257813 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 258047, "text": "w", "start": 257930 },
+                  { "end": 258170, "text": "i", "start": 258096 },
+                  { "end": 258230, "text": "n", "start": 258170 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 258390, "text": "y", "start": 258290 },
+                  { "end": 258483, "text": "o", "start": 258390 },
+                  { "end": 258533, "text": "u", "start": 258483 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 258675, "text": "l", "start": 258579 },
+                  { "end": 258815, "text": "o", "start": 258697 },
+                  { "end": 259079, "text": "s", "start": 258916 },
+                  { "end": 259242, "text": "e", "start": 259079 }
+                ]
+              }
+            ]
+          },
+          {
+            "words": [
+              {
+                "syllables": [
+                  { "end": 259933, "text": "H", "start": 259700 },
+                  { "end": 260107, "text": "e", "start": 259933 },
+                  { "end": 260250, "text": "y", "start": 260107 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 260550, "text": "h", "start": 260390 },
+                  { "end": 260673, "text": "e", "start": 260550 },
+                  { "end": 260773, "text": "y", "start": 260673 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 261029, "text": "h", "start": 260870 },
+                  { "end": 261149, "text": "e", "start": 261029 },
+                  { "end": 261247, "text": "y", "start": 261149 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 261529, "text": "h", "start": 261339 },
+                  { "end": 261829, "text": "e", "start": 261620 },
+                  { "end": 262038, "text": "y", "start": 261829 }
+                ]
+              }
+            ]
+          },
+          {
+            "words": [
+              {
+                "syllables": [
+                  { "end": 263120, "text": "H", "start": 262950 },
+                  { "end": 263250, "text": "e", "start": 263120 },
+                  { "end": 263357, "text": "y", "start": 263250 }
+                ]
+              },
+              {
+                "syllables": [
+                  { "end": 263610, "text": "s", "start": 263460 },
+                  { "end": 263760, "text": "t", "start": 263610 },
+                  { "end": 263910, "text": "u", "start": 263760 },
+                  { "end": 264140, "text": "p", "start": 263950 },
+                  { "end": 264267, "text": "i", "start": 264203 },
+                  { "end": 264331, "text": "d", "start": 264267 }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
