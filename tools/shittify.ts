@@ -8,12 +8,12 @@ const convert = async (mp3filePath: string): Promise<void> => {
   const child = spawn('ffmpeg', [
     '-i',
     mp3filePath,
-    '-ar',
-    '8000',
-    '-ac',
-    '1',
-    '-acodec',
-    'pcm_u8',
+    // '-ar',
+    // '8000',
+    // '-ac',
+    // '1',
+    // '-acodec',
+    // 'pcm_u8',
     mp3filePath.replace('.mp3', '.wav'),
   ]);
 
