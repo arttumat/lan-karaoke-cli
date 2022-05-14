@@ -18,18 +18,6 @@ export const midi2wav = (midiFilePath: string): string => {
 };
 
 export const playFile = (filePath: string, callback: () => void): void => {
-  spawn('ffmpeg', [
-    '-i',
-    filePath.replace('.json', '.mp3'),
-    '-ar',
-    '8000',
-    '-ac',
-    '1',
-    '-acodec',
-    'pcm_u8',
-    filePath.replace('.json', '.wav'),
-  ]);
-
   player
     .play({
       path: filePath.replace('.json', '.wav'),
