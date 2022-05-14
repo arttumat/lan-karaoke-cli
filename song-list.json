@@ -48,5 +48,50 @@
     "name": "your_song",
     "song": "5274",
     "variant": "101646"
+  },
+  {
+    "name": "boom_boom",
+    "song": "20206",
+    "variant": "25260"
+  },
+  {
+    "name": "take_on_me",
+    "song": "1433",
+    "variant": "10003"
+  },
+  {
+    "name": "bangkok",
+    "song": "4750",
+    "variant": "4979"
+  },
+  {
+    "name": "tequila",
+    "song": "16362",
+    "variant": "76007"
+  },
+  {
+    "name": "pikachu_man",
+    "song": "23919",
+    "variant": "29907"
+  },
+  {
+    "name": "enter_sandman",
+    "song": "575",
+    "variant": "1997"
+  },
+  {
+    "name": "lose_yourself",
+    "song": "1748",
+    "variant": "1749"
+  },
+  {
+    "name": "pokemon",
+    "song": "65732",
+    "variant": "120089"
+  },
+  {
+    "name": "boten_anna",
+    "song": "90",
+    "variant": "90"
   }
 ]
