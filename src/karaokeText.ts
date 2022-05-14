@@ -72,7 +72,10 @@ function createLines(linesJson: any[]): Line[] {
   linesJson.forEach((lineJson) => {
     const words: Word[] = createWords(lineJson.words);
     const line: Line = {
-      asString: words.map((word: Word) => word.asString).join(' '),
+      asString: words
+        .map((word: Word) => word.asString)
+        .join(' ')
+        .normalize('NFD'),
       words: words,
       start: findStart(lineJson.words),
       end: findEnd(lineJson.words),
@@ -89,7 +92,10 @@ function createWords(wordsJson: any[]): Word[] {
   wordsJson.forEach((wordJson) => {
     const syllables: Syllable[] = createSyllables(wordJson.syllables);
     const word: Word = {
-      asString: syllables.map((syllable: Syllable) => syllable.text).join(''),
+      asString: syllables
+        .map((syllable: Syllable) => syllable.text)
+        .join('')
+        .normalize('NFD'),
       syllables: syllables,
       start: findStart(wordJson.syllables),
       end: findEnd(wordJson.syllables),
@@ -103,7 +109,7 @@ function createWords(wordsJson: any[]): Word[] {
 function createSyllables(syllablesJson: any[]): Syllable[] {
   return syllablesJson.map((syllableJson: any) => {
     return {
-      text: syllableJson.text,
+      text: syllableJson.text.normalize('NFD'),
       end: syllableJson.end,
       start: syllableJson.start,
     };
