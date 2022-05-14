@@ -9,9 +9,14 @@ interface QueueItem {
 type QueueContextType = {
   queue: QueueItem[];
   addToQueue: (item: QueueItem) => void;
+  removeFromQueue: (item: QueueItem) => void;
 };
 
-const QueueContext = createContext<QueueContextType>({ queue: [], addToQueue: () => {} });
+const QueueContext = createContext<QueueContextType>({
+  queue: [],
+  addToQueue: () => {},
+  removeFromQueue: () => {},
+});
 
 export const QueueProvider: FC = ({ children }) => {
   const [queue, setQueue] = useState<QueueItem[]>([]);
@@ -20,7 +25,15 @@ export const QueueProvider: FC = ({ children }) => {
     setQueue((prevQueue) => [...prevQueue, item]);
   };
 
-  return <QueueContext.Provider value={{ queue, addToQueue }}>{children}</QueueContext.Provider>;
+  const removeFromQueue = (item: QueueItem) => {
+    setQueue((prevQueue) => prevQueue.filter((queueItem) => queueItem !== item));
+  };
+
+  return (
+    <QueueContext.Provider value={{ queue, addToQueue, removeFromQueue }}>
+      {children}
+    </QueueContext.Provider>
+  );
 };
 
 export const useQueue = () => {

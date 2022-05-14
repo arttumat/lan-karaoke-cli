@@ -5,18 +5,18 @@ import chalk from 'chalk';
 import * as fs from 'fs';
 
 import { useQueue } from '../context/queue';
-import { playFile, midi2wav } from '../lib/helpers';
+import { playFile, stop } from '../lib/helpers';
 import NowPlaying from '../components/NowPlaying';
 
 const Queue = () => {
-  const { queue } = useQueue();
+  const { queue, removeFromQueue } = useQueue();
 
   const [isPlaying, setIsPlaying] = useState(false);
   const [currentLyrics, setCurrentLyrics] = useState<object | null>(null);
   const [performerName, setPerformerName] = useState('');
 
   useInput((input, key) => {
-    if (key.delete) {
+    if (input === 'p') {
       // Get lyrics from json
       const lyricsJsonString = fs.readFileSync(queue[0].jsonFilePath, 'utf8');
       const lyricsJson = JSON.parse(lyricsJsonString);
@@ -25,7 +25,14 @@ const Queue = () => {
 
       playFile(queue[0].jsonFilePath, () => {
         setIsPlaying(true);
+        removeFromQueue(queue[0]);
       });
+    }
+
+    if (input === 'q') {
+      setIsPlaying(false);
+      setCurrentLyrics(null);
+      stop();
     }
   });
 
