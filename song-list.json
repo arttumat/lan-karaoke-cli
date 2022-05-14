@@ -28,5 +28,25 @@
     "name": "black_parade",
     "song": "5101",
     "variant": "5332"
+  },
+  {
+    "name": "pure_mua",
+    "song": "8037",
+    "variant": "8373"
+  },
+  {
+    "name": "can_you_feel",
+    "song": "3271",
+    "variant": "29718"
+  },
+  {
+    "name": "rocket_man",
+    "song": "1738",
+    "variant": "100873"
+  },
+  {
+    "name": "your_song",
+    "song": "5274",
+    "variant": "101646"
   }
 ]
