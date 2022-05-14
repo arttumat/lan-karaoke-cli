@@ -15,7 +15,7 @@ const Queue = () => {
   const [currentLyrics, setCurrentLyrics] = useState<object | null>(null);
 
   useInput((input, key) => {
-    if (key.delete) {
+    if (key.return) {
       // Get lyrics from json
       const lyricsJsonString = fs.readFileSync(queue[0].jsonFilePath, 'utf8');
       const lyricsJson = JSON.parse(lyricsJsonString);
