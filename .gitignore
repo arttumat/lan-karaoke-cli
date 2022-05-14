@@ -105,3 +105,6 @@ dist
 
 # Test file
 kukkuu.json
+
+# Wav files
+*.wav

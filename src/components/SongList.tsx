@@ -38,7 +38,12 @@ const SongList = (props: SongListProps) => {
 
   useInput((input, key) => {
     if (key.return && selectedSong && performerName) {
-      addToQueue({ performerName, midiFilePath: selectedSong.value, songName: selectedSong.label });
+      addToQueue({
+        performerName,
+        midiFilePath: selectedSong.value,
+        songName: selectedSong.label,
+        jsonFilePath: selectedSong.value.replace(/\.mid$/, '.json'),
+      });
       setSelectedSong(null);
       setPerformerName('');
       props.onFinish();

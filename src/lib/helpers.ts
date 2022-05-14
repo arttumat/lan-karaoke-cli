@@ -15,13 +15,14 @@ export const midi2wav = (midiFilePath: string): string => {
   return returnFilePath;
 };
 
-export const playFile = (filePath: string): void => {
+export const playFile = (filePath: string, callback: () => void): void => {
   player
     .play({
       path: filePath.replace('.mid', '.wav'),
     })
     .then(() => {
-      console.log('The wav file started to be played successfully.');
+      // Do something after the sound has started playing
+      callback();
     })
     .catch((error: any) => {
       console.error(error);

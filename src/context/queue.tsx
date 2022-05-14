@@ -3,6 +3,7 @@ import React, { FC, createContext, useState, useContext } from 'react';
 interface QueueItem {
   performerName: string;
   midiFilePath: string;
+  jsonFilePath: string;
   songName: string;
 }
 
